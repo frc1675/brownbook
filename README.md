@@ -10,34 +10,34 @@ The Brownbook is your guide to everything controls and programming on FRC1675.
 
 ### Java
 
-* [How does a program run]()
-* [Programming basics (output, arithmetic, logic, branching)]()
-* [Methods]()
-* [Classes and Objects]()
+* [How does a program run](java/how-java-works.md)
+* [Programming basics (output, arithmetic, logic, branching)](java/programming-basics.md)
+* [Methods](java/methods.md)
+* [Classes and Objects](java/classes-and-objects.md)
 
 ### Robot Programming Basics
 
-* [Control loop based programming]()
-* [How to get input]()
-* [How to turn a wheel]()
-* [How to give output]()
-* [SimpleRobot vs IterativeRobot vs CommandBasedRobot]()
+* [Control loop based programming](robot-basics/control-loops.md)
+* [How to get input](robot-basics/how-to-input.md)
+* [How to turn a wheel](robot-basics/turn-a-wheel.md)
+* [How to give output](robot-basics/how-to-output.md)
+* [SimpleRobot vs IterativeRobot vs CommandBasedRobot](robot-basics/robot-architecture.md)
 
 ### Advanced Robot Programming
-* [CommandGroups]()
-* [Autonomous Mode]()
-* [Sensors and Feedback]()
-* [Continuous Feedback Loops]()
+* [CommandGroups](robot-adv/commandgroups.md)
+* [Autonomous Mode](robot-adv/autonomous.md)
+* [Sensors and Feedback](robot-adv/sensors.md)
+* [Continuous Feedback Loops](robot-adv/feedback-loops.md)
 
 ### Robot Systems and Best Practices
-* [Drivetrain]()
-* [Arms]()
-* [Pneumatics]()
-* [Shooters]()
-* [Elevators]()
-* [Roller Claws]()
-* [Dashboard]()
+* [Drivetrain](systems/drivetrain.md)
+* [Arms](systems/arms.md)
+* [Pneumatics](systems/pneumatics.md)
+* [Shooters](systems/shooters.md)
+* [Elevators](systems/elevators.md)
+* [Roller Claws](systems/roller-claws.md)
+* [Dashboard](systems/dashboard.md)
 
 ### Assorted Guides
 
-* [FRC1675 Coding Standard]()
+* [FRC1675 Coding Standard](assorted-guides/coding-standard.md)
