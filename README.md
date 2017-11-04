@@ -15,13 +15,19 @@ The Brownbook is your guide to everything controls and programming on FRC1675.
 * [Methods](java/methods.md)
 * [Classes and Objects](java/classes-and-objects.md)
 
-### Robot Programming Basics
+### "Learn to Program" Labs
 
-* [Control loop based programming](robot-basics/control-loops.md)
-* [How to get input](robot-basics/how-to-input.md)
-* [How to turn a wheel](robot-basics/turn-a-wheel.md)
-* [How to give output](robot-basics/how-to-output.md)
-* [SimpleRobot vs IterativeRobot vs CommandBasedRobot](robot-basics/robot-architecture.md)
+* [Lab 1: Babby's First Program (hello world)](labs/lab-1-hello-world.md)
+* [Lab 2: Make the Code Do Math For You](labs/lab-2-math.md)
+* [Lab 3: As the Wheel Turns](labs/lab-3-turn-wheel.md)
+* [Lab 4: You Turn the Wheel](labs/lab-4-driver-input.md)
+* [Lab 5: Your Robot Driver's License Test](labs/lab-5-drive.md)
+* [Lab 6: There's Buttons Here Too](labs/lab-6-buttons.md)
+* [Lab 7: Self-Driving Robot](labs/lab-7-autonomous.md)
+* [Lab 8: Turn With a Sensor](labs/lab-8-gyro.md)
+* [Lab 9: P(I)D Loops](labs/lab-9-pid-loop.md)
+* [Lab 10: Drive WIth a Sensor](labs/lab-10-encoder.md)
+
 
 ### Advanced Robot Programming
 * [CommandGroups](robot-adv/commandgroups.md)
