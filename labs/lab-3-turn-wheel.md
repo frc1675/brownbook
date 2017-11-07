@@ -8,6 +8,7 @@ In this lab we will create our first robot program and make a wheel turn using a
 
 The hardware required for this lab is:
 
+* A Laptop with Driver Station installed and means to connect to RoboRIO
 * RoboRIO
 * PD Board and Main Breaker
 * 1 motor controller
@@ -23,6 +24,10 @@ The setup should be as follows:
 
 You're in luck! Every past 1675 robot that still has its electronics has all these things. 
 Let's go a little more in-depth on some of the aspects of the hardware setup.
+
+#### Driver Station
+
+You will need a computer with Driver Station installed to start the robot. We won't be using any human input in this lab so the program is all you need.
 
 #### RoboRIO
 
@@ -82,4 +87,73 @@ The design team determines what the ratio from the motor to the wheel will be.
 
 ### Software
 
+To program the robot you will need Eclipse with the FRC development plugins installed and CTRE library for motor controllers. For help, see [Setting up your development environment (robot)](../basics/robot-dev-setup.md).
 
+What we need to do to accomplish the objective:
+
+* Create an IterativeRobot template project
+* Understand how IterativeRobot works
+* Insert code to make the motor controller turn the wheel
+* Test our code
+
+#### Create an IterativeRobot template project
+
+To create the template project
+
+* Select File > New > Other... . 
+* In the New window select WPILib Robot Java Development > Robot Java Project.
+* Give your project a name.
+* In the package field, put org.usfirst.frc.team1675.robot . This may already be filled in.
+* Select the Iterative Robot radio button.
+* Ignore the Simulation World field and click Finish
+
+If successful you will have a new project in Eclipse and in that project will be a Robot.java file with a lot of template code and comments.
+
+#### Understand How IterativeRobot Works
+
+In FRC, if a robot is turned on, it is in one of 3 modes: Disabled, Teleoperated, or Autonomous. In Disabled mode all outputs are disabled. In Autonomous all input from the Driver Station is disabled. In the IterativeRobot framework your code can be called in one of 3 ways: init, periodic, and continuous. Each mode has its own version of a method for these ways. (ex. `autonomousInit`, `disabledPeriodic`, `teleopContinuous`).
+
+* init
+  * `autonomousInit`, `teleopInit`, `disabledInit`
+  * Runs once when the robot enters the given mode.
+    * For example, `autonomousInit` runs once whenever the robot enters autonomous mode.
+* periodic
+  * `autonomousPeriodic`, `teleopPeriodic`, `disabledPeriodic`
+  * Runs every so often when the robot is in the given mode.
+    * Typically the period is 20ms as the robot runs at 50Hz. 1s/50Hz = 20ms
+    * For example, `disabledPeriodic` runs every 20ms when the robot is in disabled mode.
+* continuous
+  * `autonomousContinuous`, `teleopContinuous`, `disabledContinuous`
+  * Runs as often as possible when other things aren't running in the given mode
+    * For example, `teleopContinuous` runs as often as possible when the robot is in teleop mode.
+  * We typically do not use continuous methods.
+* There is one more important method, `robotInit`, that runs once, ever, whenever the robot code starts.
+
+**QUESTION TIME!** 
+* Can you think of some reasons why it is important for our code to be as fast and efficient as possible?
+* Can you think of some guidelines on how our code should be written in each of these methods?
+  * Are there certain java keywords we should avoid using?
+  
+On 1675 we typically use Command-Based programming to program our competition robots, but it is important to understand how IterativeRobot works first.
+
+#### Write Code
+
+For this lab, make the wheel spin at 50% speed forward any time the robot is in teleop mode.
+
+What method or methods should our code to do this go in? Think about it or discuss with your group.
+
+What code will you need to add? Here are some tips:
+
+* You will need to create a variable representing the motor controller. For a TalonSRX using CAN the class is CANTalon.
+  * The channel/ID to declare it with is determined by the wiring. A veteran member or mentor can help you determine this.
+* You will need to call a method on the motor controller object to set its speed. Check out the javadocs [here](http://www.ctr-electronics.com/downloads/api/java/html/index.html) and try to figure out what you need to call. You will be in "Percent Voltage Bus" mode.
+  * An argument of 0.5 will set the motor to 50% speed forward.
+  
+#### Testing
+
+When you test your code for the first time, always do it "on blocks". No moving part of the robot should be touching the floor or anything else. For this lab you can leave the robot on blocks as we are only turning one wheel.
+
+### Post Lab Questions
+
+* How could I make the wheel go forward at 100%? Backward at 25%?
+* What if I wanted the wheel to turn in autonomous mode?
