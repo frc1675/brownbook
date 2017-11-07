@@ -51,7 +51,7 @@ What code will you need to add? Here are some tips:
   * The first joystick you plug in should be joystick 0.
 * You will need to call a method on the `Joystick` object to get the value from the joystick. Check out the javadocs [here](http://first.wpi.edu/FRC/roborio/release/docs/java/) and try to figure out what you need to call.
   * Decide which joystick and axis you will read from. 
-  * If you are using an XBox 360 controller, our [XBoxControllerMap class](https://github.com/frc1675/frc1675-2016/blob/master/src/org/usfirst/frc/team1675/robot/XBoxControllerMap.java) can help you figure out what axis to use.
+  * If you are using an XBox 360 controller, our [`XBoxControllerMap` class](https://github.com/frc1675/frc1675-2016/blob/master/src/org/usfirst/frc/team1675/robot/XBoxControllerMap.java) can help you figure out what axis to use.
     * Don't worry about including that file, just use it to pick the number you need.
 
 **QUESTION TIME!**
