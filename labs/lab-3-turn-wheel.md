@@ -103,7 +103,7 @@ To create the template project
 * Select File > New > Other... . 
 * In the New window select WPILib Robot Java Development > Robot Java Project.
 * Give your project a name.
-* In the package field, put org.usfirst.frc.team1675.robot . This may already be filled in.
+* In the package field, put `org.usfirst.frc.team1675.robot` . This may already be filled in.
 * Select the Iterative Robot radio button.
 * Ignore the Simulation World field and click Finish
 
@@ -144,10 +144,10 @@ What method or methods should our code to do this go in? Think about it or discu
 
 What code will you need to add? Here are some tips:
 
-* You will need to create a variable representing the motor controller. For a TalonSRX using CAN the class is CANTalon.
+* You will need to create a variable representing the motor controller. For a TalonSRX using CAN the class is `CANTalon`.
   * The channel/ID to declare it with is determined by the wiring. A veteran member or mentor can help you determine this.
 * You will need to call a method on the motor controller object to set its speed. Check out the javadocs [here](http://www.ctr-electronics.com/downloads/api/java/html/index.html) and try to figure out what you need to call. You will be in "Percent Voltage Bus" mode.
-  * An argument of 0.5 will set the motor to 50% speed forward.
+  * An argument of `0.5` will set the motor to 50% speed forward.
   
 #### Testing
 
