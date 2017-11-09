@@ -19,6 +19,8 @@ When installing select these options:
 * Checkout Windows-style, commit Unix-style line endings
 * Use MinTTY
 
+Those are the important ones to make sure, default on every other screen should be fine.
+
 ### Fork the repository
 
 In the main page of the repository you want to work on, there will be a Fork button in the upper right. Click it.
