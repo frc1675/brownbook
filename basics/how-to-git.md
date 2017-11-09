@@ -23,4 +23,4 @@ When installing select these options:
 
 In the main page of the repository you want to work on, there will be a Fork button in the upper right. Click it.
 
-![Fork Button](./forkbutton.png)
+![Fork Button](./forkbutton.PNG)
