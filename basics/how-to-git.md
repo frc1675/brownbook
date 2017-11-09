@@ -26,3 +26,12 @@ Those are the important ones to make sure, default on every other screen should 
 In the main page of the repository you want to work on, there will be a Fork button in the upper right. Click it.
 
 ![Fork Button](./forkbutton.PNG)
+
+Forking creates a personal version of the repo for you to make changes in. Once your changes are made, you will request that the main project take your changed.
+
+### Set up github authentication (Personal laptop)
+
+WIP - see https://help.github.com/articles/set-up-git/
+
+### Clone the repository
+
