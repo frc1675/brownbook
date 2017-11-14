@@ -64,6 +64,11 @@ Try writing the code that expresses your algorithm above. Don't be afraid to tak
 
 When you test your code for the first time, always do it "on blocks". No moving part of the robot should be touching the floor or anything else. For this lab, once you are confident that the robot will be controllable, put it on the ground and drive it around!
 
+#### Reload Code
+
+**IMPORTANT!**
+Make sure a veteran student or mentor loads the correct code back into the robot before the end of the night. We don't want people to go to a demo or something with random drive code and nothing else in the robot.
+
 ### Post Lab Questions
 
 * Did you implement any code to resolve the post-lab question from Lab 4?
