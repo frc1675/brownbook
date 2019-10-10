@@ -2,12 +2,15 @@
 ### Definitions:
 
 * **Functions**: a named section of a program that performs a specific task.
-   * Functions often generate output when provided input, the example below computes the addition of two input numbers a and b. 
+   * Functions often return output when provided input, the example below computes the addition of two input numbers a and b. 
      ```
      float add(float a, floatb) {
         return a + b;
      }
      ```
+   * They have the following general form: "return type" "name"("arguement type" "arguement name")
+   * Therefore the above example has a return type of float, a name of add, arguement type of float and arguement name of a and b.
+   * Functions can also 
    * Use functions to organize your code by grouping related code together.
    * Use functions to reduce duplication of code for operations that must be performed many times.
    * You are already familiar with functions through your experience with ```System.out.println()``` and ```Math.abs()```
@@ -18,6 +21,10 @@
 ```
 public final class Main {
     private Main() {
+    }
+    
+    void printNameAndSchool(String first, String last, String school){
+        // Add your function code here.
     }
 
     public static void main(String... args) {
@@ -36,6 +43,9 @@ public final class Main {
 * Create a new folder called FunctionExercise in C:\dev that has a Main.java file.
 * Copy the above code into that file and Run to see the output.
 * Modify the names and schools to match your group and add new code if needed for additional members.
-* Next write a function: 
+* Complete the function: 
    * ```void printNameAndSchool(String first, String last, String school)``` that returns nothing (```void```)
-   * prints the statement "**first** **last** goes to **school**" where first, last and school are the values of the input variables.
+   * It should print the statement "**first** **last** goes to **school**" where first, last and school are the values of the input variables.
+* Update your main method to call the function instead of printing each statement itself.
+   * Hint: When complete your ```main()``` method should have only as many lines of code as you have members in your group.
+   * Check with a mentor when complete to see if you can simplify your code even more.
