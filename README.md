@@ -19,6 +19,7 @@ The Brownbook is your guide to everything controls and programming on FRC1675.
 
 * [Lab 1: Babby's First Program (hello world)](labs/lab-1-hello-world.md)
 * [Lab 2: Make the Code Do Math For You](labs/lab-2-math.md)
+* [Lab 3: Organize your code! Use functions] (labs/functions-lab.md)
 * [Lab 3: As the Wheel Turns](labs/lab-3-turn-wheel.md)
 * [Lab 4: You Turn the Wheel](labs/lab-4-driver-input.md)
 * [Lab 5: Your Robot Driver's License Test](labs/lab-5-drive.md)
