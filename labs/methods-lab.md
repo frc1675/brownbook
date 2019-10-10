@@ -11,7 +11,7 @@
      ```
    * They have the following general form: "return type" "name"("arguement type" "arguement name")
    * Therefore the above example has a return type of float, a name of add, arguement type of float and arguement name of a and b.
-   * Methods can also 
+   * Methods can also return ```void``` (which means nothing) and in this case do not require a ```return``` statement.
    * Use methods to organize your code by grouping related code together.
    * Use methods to reduce duplication of code for operations that must be performed many times.
    * You are already familiar with methods through your experience with ```System.out.println()``` and ```Math.abs()```
