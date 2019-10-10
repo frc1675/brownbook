@@ -13,3 +13,29 @@
    * You are already familiar with functions through your experience with ```System.out.println()``` and ```Math.abs()```
    
 ### Exercise #1:
+
+* Below is a Java program designed to print out where each member of your group goes to school:
+```
+public final class Main {
+    private Main() {
+    }
+
+    public static void main(String... args) {
+        String firstName  = "John";
+        String lastName = "Smith";
+        String school = "King";
+        System.out.println(firstName+" "+lastName+" goes to "+school);
+
+        firstName  = "Jane";
+        lastName = "Smith";
+        school = "MSL";
+        System.out.println(firstName+" "+lastName+" goes to "+school);
+    }
+}
+```
+* Create a new folder called FunctionExercise in C:\dev that has a Main.java file.
+* Copy the above code into that file and Run to see the output.
+* Modify the names and schools to match your group and add new code if needed for additional members.
+* Next write a function: 
+   * ```void printNameAndSchool(String first, String last, String school)``` that returns nothing (```void```)
+   * prints the statement "**first** **last** goes to **school**" where first, last and school are the values of the input variables.
