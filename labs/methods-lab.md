@@ -72,3 +72,42 @@ public final class Main {
 * From your ```main()``` method call each of your new functions and print the result:
    * Example: ```System.out.println(min(1,5));``` and ```System.out.println(max(1,5);```
 * Run your program! Do your results make sense? Try different values to test it more.
+
+### Exercise #4: ("Challenge" work)
+
+* Create a new file named `Methods.java` and copy the following code into the file:
+  
+ ```
+ public final class Methods {
+
+  public static double checkIfNumberIsGreater(double x, double y) {
+    System.out.println("---------Cool Number Thing----------\n");
+    // Fill in your method here
+    
+    // Think back to if/else statements, call someone over if you need help
+    
+    // Create code to check if x is greater than y, and if true, 
+    // add +2 to x (x = x + 2), then print out "x is greater than y"
+    
+    // Then create code that adds 1 to y if it is greater than x,
+    // and then print out "x is NOT greater than y"
+    
+    double z = 0;
+    // Then set z equal to the sum of x and y
+    System.out.println("The sum of x and y is: " + z + "\n");
+    return z; 
+  }
+
+  public static void main(String... args) {
+    double x = 9.4;
+    double y = 8.7;
+
+    // call the method checkIfNumberIsGreater() here and pass x and y as parameters
+
+    x += z;
+    y = y + (2.5 * z);
+
+    // call the method checkIfNumberIsGreater() here and pass x and y as parameters
+  }
+}
+```
