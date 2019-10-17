@@ -50,7 +50,7 @@ public class Car {
 * Use VSCode to File -> Open Folder to open "ClassExercise" and begin to edit your java file.
 * Copy the following block of code into the file and replace "Animal" with <your-animal-here>
 ```
- public final class Animal {
+public final class Animal {
     // list your variables here along with their appropriate types
     public int age = 0;
  
@@ -59,7 +59,7 @@ public class Car {
 
     // list your methods here along with their appropriate return types
     // and create a template for them without populating them with code yet
-    public int growOlder(int years){
+    public int growOlder(int years) {
         age = age + years;
         return age;
     }
