@@ -33,9 +33,53 @@ public class Car {
 ### Exercise #1:
 
 * Pick your favorite animal that you will create an object/class for.
-* Don't code anything yet, just open a Notepad to write down the following.
-* List attributes or information that describe your animal (in some cases these might be generic to all animals). Examples are height, weight, age, health, location, canSwim, canFly etc. Think of as many as you can.
-* For each attribute think of a good variable name and correct variable type to represent it (eg int, double, String, boolean).
-* Begin to think of actions this animal can take as they relate to the attributes you have chosen. Think what how these attributes might change as certain actions occur.
+* Don't code anything yet, just open a Notepad to write down your notes.
+* List attributes or information that describe your animal (in some cases these might be generic to all animals). 
+   * Examples are height, weight, age, health, location, canSwim, canFly etc. Think of as many as you can.
+   * For each attribute think of a good variable name and correct variable type to represent it (eg int, double, String, boolean).
+* Begin to think of actions this animal can take as they relate to the attributes you have chosen. 
+   * Think what how these attributes might change as certain actions occur.
    * For example, what happens to your animal as it gets older?
-* For each action, think of a good method name and correct method return type to represent it (eg int, double, etc)
+   * For each action, think of a good method name and correct method return type to represent it (eg int, double, etc)
+   
+### Exercise #2:
+
+* Now lets code up your group's favorite animal.
+* Create a new folder in C:\dev named "ClassExercise"
+* Create a new file in that folder named <your-animal-here>.java where <your-animal-here> is the name of your specific animal.
+* Use VSCode to File -> Open Folder to open "ClassExercise" and begin to edit your java file.
+* Copy the following block of code into the file and replace "Animal" with <your-animal-here>
+```
+ public final class Animal {
+    // list your variables here along with their appropriate types
+    public int age = 0;
+ 
+    public Animal() {
+    }
+
+    // list your methods here along with their appropriate return types
+    // and create a template for them without populating them with code yet
+    public int growOlder(int years){
+        age = age + years;
+        return age;
+    }
+    
+    // For every variable you add to your class add a new line to print
+    public void printMe() {
+        System.out.println("Age = "+age);
+    }
+   
+
+    public static void main(String... args) {
+        Animal myAnimal = new Animal();
+        myAnimal.print();
+        myAnimal.growOlder(10);
+        myAnimal.print();
+    }
+}
+```
+* Make sure you can "Run" your code to confirm it can build and run before moving to next step.
+* Pick five variables (attributes) and five methods (actions) that are related to each other and add them to your class.
+* Discuss with a mentor the methods you have chosen to get ideas for how you might implement them.
+* As you implement each one, call it from your main method and call myAnimal.print() after each to see how your animal changes with each call.
+
