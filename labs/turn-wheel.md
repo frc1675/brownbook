@@ -31,7 +31,7 @@ You will need a computer with Driver Station installed to start the robot. We wo
 
 #### RoboRIO
 
--insert roboRIO picture here-
+![roboRIO](https://andymark-weblinc.netdna-ssl.com/product_images/ni-roborio/5cd03254fe93c67e8e620dea/zoom.jpg?c=1557148244)
 
 The RoboRIO is the "brain" of the robot. It will run our code, take input signals, and send output signals.
 One key output is sending commands to motor controllers, over either PWM or CAN.
