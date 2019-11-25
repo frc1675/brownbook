@@ -1,4 +1,4 @@
-## Lab 4: You Turn the Wheel
+## You Turn the Wheel
 
 ### Objective
 
