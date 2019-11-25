@@ -24,13 +24,13 @@ The setup should be as follows:
 * The motor controller should be wired to power the motor and to communicate with the roboRIO (CAN or PWM).
 * The wheel should be connected to the output shaft of the motor in some way. The wheel will turn whenever the motor turns.
 
-If you completed [As the Wheel Turns](labs/turn-wheel.md), the only new element is the joystick or controller.
+If you completed [As the Wheel Turns](turn-wheel.md), the only new element is the joystick or controller.
 
 ### Software
 
 What we need to do to accomplish the objective:
 
-* Create an IterativeRobot template project or open your [As the Wheel Turns](labs/turn-wheel.md) project
+* Create an IterativeRobot template project or open your [As the Wheel Turns](turn-wheel.md) project
 * Insert code to read the joystick value
 * Insert code to use the joystick value to command the motor controller
 * Test our code
@@ -60,7 +60,7 @@ What code will you need to add? Here are some tips:
 
 #### Write Code to Command the Motor Controller
 
-Think back to the post-lab questions in [As the Wheel Turns](labs/turn-wheel.md) (If you haven't done it yet, go read it).
+Think back to the post-lab questions in [As the Wheel Turns](turn-wheel.md) (If you haven't done it yet, go read it).
 
 How can you command the motor controller using your joystick input?
   
