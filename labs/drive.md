@@ -30,13 +30,13 @@ What we need to do to accomplish the objective:
 
 #### Create an IterativeRobot template project
 
-If you don't have a project, see Lab 3 on how to create one.
+If you don't have a project, see [As the Wheel Turns](turn-wheel.md) on how to create one.
 
 #### Write Code to Read the Joysticks
 
 The first step is to read the input value from both control sticks' Y-axis.
 
-This should be relatively easy - refer to your Lab 4 project if you need help.
+This should be relatively easy - refer to your [You Turn the Wheel](driver-input.md) project if you need help.
 
 #### Write Code to Command the Motor Controllers
 
@@ -71,7 +71,7 @@ Make sure a veteran student or mentor loads the correct code back into the robot
 
 ### Post Lab Questions
 
-* Did you implement any code to resolve the post-lab question from Lab 4?
+* Did you implement any code to resolve the post-lab question from [You Turn the Wheel](driver-input.md)?
 * Try to drive the robot at half-speed or 3/4 speed straight forward. It can be pretty difficult. Can you think of a way to make it easier?
 * Can you come up with any other control algorithms using the control sticks? Feel free to be creative.
 
