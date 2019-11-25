@@ -1,4 +1,4 @@
-## Lab 3: As the Wheel Turns
+## As the Wheel Turns
 
 ### Objective
 
