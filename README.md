@@ -21,7 +21,7 @@ The Brownbook is your guide to everything controls and programming on FRC1675.
 * [Lab 2: Make the Code Do Math For You](labs/lab-2-math.md)
 * [Lab 3: Organize your code! Use methods](labs/methods-lab.md)
 * [Lab 4: Creating Objects from Code](labs/classes-lab.md)
-* [Lab 3: As the Wheel Turns](labs/lab-3-turn-wheel.md)
+* [Lab 3: As the Wheel Turns](labs/turn-wheel.md)
 * [Lab 4: You Turn the Wheel](labs/lab-4-driver-input.md)
 * [Lab 5: Your Robot Driver's License Test](labs/lab-5-drive.md)
 * [Lab 6: There's Buttons Here Too](labs/lab-6-buttons.md)
