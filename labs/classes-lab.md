@@ -65,7 +65,7 @@ public final class Animal {
     }
     
     // For every variable you add to your class add a new line to print
-    public void printMe() {
+    public void print() {
         System.out.println("Age = "+age);
     }
    
