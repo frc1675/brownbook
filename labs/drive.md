@@ -1,4 +1,4 @@
-## Lab 5: Your Robot Driver's License Test
+## Your Robot Driver's License Test
 
 ### Objective
 
