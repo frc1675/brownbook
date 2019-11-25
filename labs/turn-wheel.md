@@ -38,15 +38,14 @@ One key output is sending commands to motor controllers, over either PWM or CAN.
 
 #### PD Board and Main Breaker
 
-[!PD Board](https://media.screensteps.com/image_assets/assets/000/289/904/original/47968888-bef1-41ab-b81e-35e33bdd749c.png)
-[!Main Breaker](https://media.screensteps.com/image_assets/assets/000/289/920/original/3A6C33C3-2EB6-4689-837C-F117C800F6F0.png)
+![PD Board](https://media.screensteps.com/image_assets/assets/000/289/904/original/47968888-bef1-41ab-b81e-35e33bdd749c.png)
+![Main Breaker](https://media.screensteps.com/image_assets/assets/000/289/920/original/3A6C33C3-2EB6-4689-837C-F117C800F6F0.png)
 
-The PD (Power Distribution) board connects to the battery and distributes power to the robot. 
-The electrical team will handle this for the most part but using CAN we can get some info about power usage of various channels if we need.
+The PD (Power Distribution) board connects to the battery (via the Main Breaker) and distributes power to the robot. The Main Breaker black switch is used to turn the robot on, and red button to turn it off. The electrical team will handle this for the most part but using CAN we can get some info about power usage of various channels if we need.
 
 #### Motor Controller
 
-[!SparkMax](https://media.screensteps.com/image_assets/assets/002/146/978/original/MAX_HERO__64533.1542227940.png)
+![SparkMax](https://media.screensteps.com/image_assets/assets/002/146/978/original/MAX_HERO__64533.1542227940.png)
 
 This is a motor controller. It takes power in from the PD board (+ and -), outputs power to the motor (+ and -), and has signal wires.
 The output wires going to the motor will apply some voltage to the motor depending on how we command it.
