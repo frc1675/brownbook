@@ -27,7 +27,7 @@ Let's go a little more in-depth on some of the aspects of the hardware setup.
 
 #### Driver Station
 
-You will need a computer with Driver Station installed to start the robot. We won't be using any human input in this lab so the program is all you need. Look for it as a desktop icon on the team programming computers.
+You will need a computer with Driver Station installed to start the robot. We won't be using any human input in this lab so the program is all you need.
 
 #### RoboRIO
 
@@ -38,14 +38,15 @@ One key output is sending commands to motor controllers, over either PWM or CAN.
 
 #### PD Board and Main Breaker
 
-![PD Board](https://media.screensteps.com/image_assets/assets/000/289/904/original/47968888-bef1-41ab-b81e-35e33bdd749c.png)
-![Main Breaker](https://media.screensteps.com/image_assets/assets/000/289/920/original/3A6C33C3-2EB6-4689-837C-F117C800F6F0.png)
+[!PD Board](https://media.screensteps.com/image_assets/assets/000/289/904/original/47968888-bef1-41ab-b81e-35e33bdd749c.png)
+[!Main Breaker](https://media.screensteps.com/image_assets/assets/000/289/920/original/3A6C33C3-2EB6-4689-837C-F117C800F6F0.png)
 
-The PD (Power Distribution) board connects to the battery (via the Main Breaker) and distributes power to the robot. The Main Breaker black switch is used to turn the robot on, and red button to turn it off. The electrical team will handle this for the most part but using CAN we can get some info about power usage of various channels if we need.
+The PD (Power Distribution) board connects to the battery and distributes power to the robot. 
+The electrical team will handle this for the most part but using CAN we can get some info about power usage of various channels if we need.
 
 #### Motor Controller
 
-![SparkMax](https://media.screensteps.com/image_assets/assets/002/146/978/original/MAX_HERO__64533.1542227940.png)
+[!SparkMax](https://media.screensteps.com/image_assets/assets/002/146/978/original/MAX_HERO__64533.1542227940.png)
 
 This is a motor controller. It takes power in from the PD board (+ and -), outputs power to the motor (+ and -), and has signal wires.
 The output wires going to the motor will apply some voltage to the motor depending on how we command it.
@@ -55,16 +56,16 @@ Typically 1675 uses communication over the CAN bus now.
 
 ##### CAN Bus
 
--insert CAN connection picture here-
+![CAN Connection](https://wpilib.screenstepslive.com/s/currentCS/m/cs_hardware/l/144971/show_image?image_id=1189971)
 
 The CAN Bus is 2 wires that all the CAN Bus devices on the robot chain together and enter the roboRIO at one point.
 Each CAN Device has its own "CAN ID" used to refer to it in code.
 
 #### Motor
 
--insert CIM picture here-
+![Rev Neo Motor](https://cdn11.bigcommerce.com/s-t3eo8vwp22/images/stencil/1280x1280/products/361/1214/NEO_SIDE__21071.1542226264.png?c=2&imbypass=on)
 
-This is a motor. This motor is a CIM, but we use many different kids of motors (determined by the rules and the design team).
+This is a motor. This motor is a Rev Neo, but we use many different kids of motors (determined by the rules and the design team).
 Most motors we will use work the same way. The two power wires connect to the outputs of the motor controller.
 When the motor controller applies voltage to the motor, the motor will turn proportional to the voltage given.
 How fast the motor spins is determined by both the applied voltage and the motor specifications.
@@ -73,11 +74,11 @@ Each motor requires its own dedicated motor controller.
 #### Wheel
 
 The wheel will turn when the motor turns. How fast it spins depends on how it is conected to the motor. 
-The design team determines what the ratio from the motor to the wheel will be.
+The design team determines what the ratio from the motor to the wheel will be. If you are running on this lab on a test board no wheel will be connected and this is OK.
 
 ### Software
 
-To program the robot you will need Eclipse with the FRC development plugins installed and CTRE library for motor controllers. For help, see [Setting up your development environment (robot)](../basics/robot-dev-setup.md).
+To program the robot you will need VSCode with the FRC development plugins installed and vendor library for motor controllers (eg CTRE, Rev as a mentor if you are unsure of this). For help, see [Setting up your development environment (robot)](../basics/robot-dev-setup.md).
 
 What we need to do to accomplish the objective:
 
@@ -90,14 +91,16 @@ What we need to do to accomplish the objective:
 
 To create the template project
 
-* Select File > New > Other... . 
-* In the New window select WPILib Robot Java Development > Robot Java Project.
+* Open VS Code for robot development (on desktop of programmer laptops) 
+* Press Ctrl+Shift+P to bring up Command Palette
+* Type "WPI" to filter on robot related command and select the New Robot Project option
+* Select Java as the programming language
+* Select template project option
+* Select the Iterative Robot template
 * Give your project a name.
-* In the package field, put `org.usfirst.frc.team1675.robot` . This may already be filled in.
-* Select the Iterative Robot radio button.
-* Ignore the Simulation World field and click Finish
+* Follow the on screen prompts to complete project setup
 
-If successful you will have a new project in Eclipse and in that project will be a Robot.java file with a lot of template code and comments.
+If successful you will have a new project in VSCode and in that project will be a Robot.java file with a lot of template code and comments.
 
 #### Understand How IterativeRobot Works
 
