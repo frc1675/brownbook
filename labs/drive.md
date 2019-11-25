@@ -58,7 +58,7 @@ Try writing the code that expresses your algorithm above. Don't be afraid to tak
 
 **QUESTION TIME!**
 * Did some wheels turn the opposite direction you thought they would? Why might that be?
-* How did you fix the above problem? Try looking in the javadocs for the motor controller (see Lab 3). Are there any methods that can help your solution or make it cleaner?
+* How did you fix the above problem? Try looking in the javadocs for the motor controller (see [As the Wheel Turns](turn-wheel.md)). Are there any methods that can help your solution or make it cleaner?
   
 #### Testing
 
