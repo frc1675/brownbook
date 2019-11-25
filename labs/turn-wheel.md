@@ -27,7 +27,7 @@ Let's go a little more in-depth on some of the aspects of the hardware setup.
 
 #### Driver Station
 
-You will need a computer with Driver Station installed to start the robot. We won't be using any human input in this lab so the program is all you need.
+You will need a computer with Driver Station installed to start the robot. We won't be using any human input in this lab so the program is all you need. Look for it as a desktop icon on the team programming computers.
 
 #### RoboRIO
 
