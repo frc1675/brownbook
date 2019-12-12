@@ -8,7 +8,7 @@
   * objects must be created via a call to "new": ```MyClass myObj = new MyClass();```
   * objects can be used to represent objects from the real world. See the "Car" object implementation below:
   
-```
+```java
 public class Car {
  
   // Create a fullThrottle() method
@@ -49,7 +49,7 @@ public class Car {
 * Create a new file in that folder named <your-animal-here>.java where <your-animal-here> is the name of your specific animal.
 * Use VSCode to File -> Open Folder to open "ClassExercise" and begin to edit your java file.
 * Copy the following block of code into the file and replace "Animal" with <your-animal-here>
-```
+```java
 public final class Animal {
     // list your variables here along with their appropriate types
     public int age = 0;
