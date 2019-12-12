@@ -4,7 +4,7 @@
 
 * **Methods**: a named section of a program that performs a specific task.
    * Methods often return output when provided input, the example below computes the addition of two input numbers a and b. 
-     ```
+     ```java
      double add(double a, double b) {
         return a + b;
      }
@@ -19,7 +19,7 @@
 ### Exercise #1:
 
 * Below is a Java program designed to print out where each member of your group goes to school:
-```
+```java
 public final class Main {
     private Main() {
     }
@@ -77,7 +77,7 @@ public final class Main {
 
 * Create a new file named `Methods.java` and copy the following code into the file:
   
- ```
+ ```java
  public final class Methods {
 
   public static double checkIfNumberIsGreater(double x, double y) {
