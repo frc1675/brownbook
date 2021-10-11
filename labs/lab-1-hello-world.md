@@ -32,10 +32,6 @@
 * Create a new called file Main.java
 * Copy the contents below into the new file
 ```
-/**
- * The Main class implements an application that
- * simply prints "Hello World!" to standard output.
- */
 class Main {
     public static void main(String[] args) {
         System.out.println("Hello World!"); // Display the string.
