@@ -53,6 +53,7 @@ class Main {
 ## Exercise #2:
 * Comment out all of your previous code from Exercise #1
 * Write a program that will print the following face using various strings (no copy and pasting!!)
+* View [here](https://github.com/frc1675/brownbook/blob/master/labs/lab-1-hello-world.md#exercise-2) in a new tab for better formatting
 
 ```
                    __ooooooooo__
