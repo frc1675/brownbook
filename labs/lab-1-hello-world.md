@@ -1,6 +1,6 @@
 # Lab 1: Hellow World
 
-# Relevant Definitions:
+## Relevant Definitions:
 * **Program**:
   * A sequence of code statements executed in order starting the main method
 * **Statement**:
@@ -27,7 +27,7 @@
 * **Comment**:
   * Special characters used to disable a line of code, in Java use // at the beginning of a line to comment it
 
-# Setup:
+## Setup:
 * Create a folder called “HelloWorld” folder to C:\dev
 * From the desktop open Visual Studio code for 2020 robot development
 * Select “File” >> “Open Folder…” and then choose C:\dev\HelloWorld as the folder
@@ -43,14 +43,14 @@ class Main {
 * Press the “Run” button just above with the main method
 * Confirm “HelloWorld” is printed in the console output
 
-# Exercise #1:
+## Exercise #1:
 * Modify the HelloWorld program to have one variable of each type mentioned above
 * Print the value of each variable out to the console window
 * Reorder your print statements and note the effect, how does it relate to the definition of a program above?
 * Comment out two of your print statements and rerun your program, what did you observe?
 
 
-# Exercise #2:
+## Exercise #2:
 * Comment out all of your previous code from Exercise #1
 * Write a program that will print the following face using various strings (no copy and pasting!!)
 
