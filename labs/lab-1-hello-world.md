@@ -28,7 +28,7 @@
   * Special characters used to disable a line of code, in Java use // at the beginning of a line to comment it
 
 ## Setup:
-* Create a folder called “HelloWorld” folder to C:\dev
+* Create a folder called “HelloWorld” in C:\dev (use Windows Explorer)
 * From the desktop open Visual Studio code for 2020 robot development
 * Select “File” >> “Open Folder…” and then choose C:\dev\HelloWorld as the folder
 * Create a new called file Main.java
@@ -44,7 +44,7 @@ class Main {
 * Confirm “HelloWorld” is printed in the console output
 
 ## Exercise #1:
-* Modify the HelloWorld program to have one variable of each type mentioned above
+* Modify the HelloWorld program to have one variable of each type mentioned above in **Relevant Definitions**
 * Print the value of each variable out to the console window
 * Reorder your print statements and note the effect, how does it relate to the definition of a program above?
 * Comment out two of your print statements and rerun your program, what did you observe?
