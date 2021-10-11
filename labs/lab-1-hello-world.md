@@ -1,4 +1,4 @@
-# Lab 1: Hellow World
+# Lab 1: Hello World
 
 ## Relevant Definitions:
 * **Program**:
