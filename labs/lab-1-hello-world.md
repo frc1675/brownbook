@@ -12,7 +12,7 @@
     * double: used for decimal values (1.5,1.5e-64,etc)
     * boolean: used for true / false situations (true, false)
     * String: represents a sequence of characters, always in quotes (“HelloWorld”)
-   * Variables are declared and give values as follows (x is a generic name, you can choose whatever):
+   * Variables are declared and given values as follows (x is a generic name, you can choose whatever):
 ```  
    int x = 1675;
    double y = 16.75;
@@ -77,4 +77,4 @@ oOOOOOO OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO OOOOOOo
               *OOOOOOOOOOOOOOOOOOOOO*          
                    ""ooooooooo""
 ```
-* Come up with your own artistic design to print out!
+* Come up with your own ASCII artistic design to print out!
