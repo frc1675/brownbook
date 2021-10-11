@@ -10,11 +10,13 @@
     * double: used for decimal values (1.5,1.5e-64,etc)
     * boolean: used for true / false situations (true, false)
     * String: represents a sequence of characters, always in quotes (“HelloWorld”)
-   * Variables are declared as follows (x is a generic name, you can choose whatever):
-    * int x;
-    * double x;
-    * boolean x;
-    * String x;
+   * Variables are declared and give values as follows (x is a generic name, you can choose whatever):
+```  
+   int x = 1675;
+   double y = 16.75;
+   boolean z = true;
+   String a = "frc1675-UPS";
+```
 * **System Library**:
   * Java provides a library of standard functions available for all developers
   * This is done to speed up development by providing standard and stable solutions to common programming problems
@@ -30,7 +32,17 @@
 * Create a new called file Main.java
 * Copy the contents below into the new file
 ```
-* Press the “Run” button just above the main method
+/**
+ * The Main class implements an application that
+ * simply prints "Hello World!" to standard output.
+ */
+class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello World!"); // Display the string.
+    }
+}
+```
+* Press the “Run” button just above with the main method
 * Confirm “HelloWorld” is printed in the console output
 
 # Exercise #1:
