@@ -1,3 +1,5 @@
+# Lab 1: Hellow World
+
 # Relevant Definitions:
 * **Program**:
   * A sequence of code statements executed in order starting the main method
