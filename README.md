@@ -19,16 +19,16 @@ The Brownbook is your guide to everything controls and programming on FRC1675.
 
 * [Lab 1: Babby's First Program (hello world)](labs/lab-1-hello-world.md)
 * [Lab 2: Make the Code Do Math For You](labs/lab-2-math.md)
-* [Lab 3: Organize your code! Use methods](labs/methods.md)
-* [Lab 4: Creating Objects from Code](labs/classes.md)
-* [Lab 5: As the Wheel Turns](labs/turn-wheel.md)
-* [Lab 6: You Turn the Wheel](labs/driver-input.md)
-* [Lab 7: Your Robot Driver's License Test](labs/drive.md)
-* [Lab 8: There's Buttons Here Too](labs/lab-6-buttons.md)
-* [Lab 9: Self-Driving Robot](labs/lab-7-autonomous.md)
-* [Lab 10: Turn With a Sensor](labs/lab-8-gyro.md)
-* [Lab 11: P(I)D Loops](labs/lab-9-pid-loop.md)
-* [Lab 12: Drive WIth a Sensor](labs/lab-10-encoder.md)
+* [Lab 3: Organize your code! Use methods](labs/lab-3-methods.md)
+* [Lab 4: Creating Objects from Code](labs/lab-4-classes.md)
+* [Lab 5: As the Wheel Turns](labs/lab-5-turn-wheel.md)
+* [Lab 6: You Turn the Wheel](labs/lab-6-driver-input.md)
+* [Lab 7: Your Robot Driver's License Test](labs/lab-7-drive.md)
+* [Lab 8: There's Buttons Here Too](labs/lab-8-buttons.md)
+* [Lab 9: Self-Driving Robot](labs/lab-9-autonomous.md)
+* [Lab 10: Turn With a Sensor](labs/lab-10-gyro.md)
+* [Lab 11: P(I)D Loops](labs/lab-11-pid-loop.md)
+* [Lab 12: Drive With a Sensor](labs/lab-12-encoder.md)
 
 
 ### Advanced Robot Programming
