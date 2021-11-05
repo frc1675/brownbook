@@ -43,7 +43,7 @@ A line of code that Java will evaluate as true or false. The most common use of 
 
 **Background Info**
 
-Up until this point, we've thought of programs as following one path which is each instruction from the top to the bottom. If statements and their variations allow us to break this flow a little bit. The basic structure of an if statement is:
+Up until this point, we've thought of programs as following one path, which is each instruction from the top to the bottom. If statements and their variants allow us to break this flow a little bit. The basic structure of an if statement is:
 ``` java
 if (/*conditional statement 1*/) {
     //path 1
@@ -57,18 +57,18 @@ The ```else if``` and ```else``` parts are optional, and you can write an unlimi
 
 The most basic conditional statement is simply a boolean value. However, we'll never write ```if (true) {```, because that defeats the whole purpose of the multiple paths our code could take! The ```else``` segment could never happen. To make more nuanced programs, we need to use conditional operators. They can be split into two kinds, those that operate on numbers and those that operate on booleans.
 
-**Numeric:**
+**Numeric**
 
 * == : equal
 * < : less than
 * &gt; : greater than
 * <= : less than or equal to
-* />= : greater than or equal to
+* &gt;= : greater than or equal to
 
-**Boolean:**
+**Boolean**
 
 * && : AND
-* || : OR
+* &#124;&#124; : OR
 * ! : NOT
 
 The numeric operators are pretty self-explanatory, and function just like they do in algebra.
@@ -85,7 +85,7 @@ Ok, on to the actual exercise.
 
 ### Exercise #2
 
-1. Modify the MathExercise program to have two double variables and assign them any values.
+1. Modify the MathExercise program to have two double variables and assign them any two values.
 2. Write a program that prints "Both positive" if the first double AND the second double are greater than 0. Otherwise, it should print "Not both positive".
 3. Change the values of the variables so that you get the other result.
 
@@ -99,7 +99,7 @@ Ok, on to the actual exercise.
 
 ### Bonus Exercise
 
-As alluded to before, there is something in Java called the Math class that lets you perform mathematical operations. Then all start with "Math.", and a common one is "Math.abs()". To review, the absolute value function leaves positive numbers unchanged and makes negative numbers positive. 
+As alluded to before, there is something in Java called the Math class that lets you perform mathematical operations. They all start with "Math.", and a common one is "Math.abs()". To review, the absolute value function leaves positive numbers unchanged and makes negative numbers positive. 
 
 1. Try to rewrite the conditional statement in this program with Math.abs(). 
 2. Hint: The input to the function goes inside the parentheses.
