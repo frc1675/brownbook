@@ -2,7 +2,7 @@
 
 ### Objective
 
-In this lab we will create our first robot program and make a wheel turn using a motor controller.
+In this lab, we will create our first robot program and make a wheel turn using a motor controller.
 
 ### Hardware
 
@@ -27,7 +27,7 @@ Let's go a little more in-depth on some of the aspects of the hardware setup.
 
 #### Driver Station
 
-You will need a computer with Driver Station installed to start the robot. We won't be using any human input in this lab so the program is all you need.
+You will need a computer with Driver Station installed to start the robot. We won't be using any human input in this lab, so the program is all you need.
 
 #### RoboRIO
 
@@ -42,7 +42,7 @@ One key output is sending commands to motor controllers, over either PWM or CAN.
 ![Main Breaker](https://media.screensteps.com/image_assets/assets/000/289/920/original/3A6C33C3-2EB6-4689-837C-F117C800F6F0.png)
 
 The PD (Power Distribution) board connects to the battery and distributes power to the robot. 
-The electrical team will handle this for the most part but using CAN we can get some info about power usage of various channels if we need.
+The electrical team will handle this for the most part, but using CAN we can get some info about power usage of various channels if we need to.
 
 #### Motor Controller
 
@@ -50,16 +50,16 @@ The electrical team will handle this for the most part but using CAN we can get 
 
 This is a motor controller. It takes power in from the PD board (+ and -), outputs power to the motor (+ and -), and has signal wires.
 The output wires going to the motor will apply some voltage to the motor depending on how we command it.
-In FRC motor controllers work using the CAN (Controller Area Network) Bus, or using PWM (Pulse-Width Modulation) signals.
+In FRC, motor controllers work using the CAN (Controller Area Network) Bus, or using PWM (Pulse-Width Modulation) signals.
 The two methods use different wiring and different code.
-Typically 1675 uses communication over the CAN bus now.
+Typically, 1675 uses communication over the CAN bus.
 
 ##### CAN Bus
 
 ![CAN Connection](https://wpilib.screenstepslive.com/s/currentCS/m/cs_hardware/l/144971/show_image?image_id=1189971)
 
 The CAN Bus is 2 wires that all the CAN Bus devices on the robot chain together and enter the roboRIO at one point.
-Each CAN Device has its own "CAN ID" used to refer to it in code.
+Each CAN Device has its own "CAN ID" used to refer to it in the code.
 
 #### Motor
 
@@ -74,11 +74,11 @@ Each motor requires its own dedicated motor controller.
 #### Wheel
 
 The wheel will turn when the motor turns. How fast it spins depends on how it is conected to the motor. 
-The design team determines what the ratio from the motor to the wheel will be. If you are running on this lab on a test board no wheel will be connected and this is OK.
+The design team determines what the ratio from the motor to the wheel will be. If you are running on this lab on a test board, no wheel will be connected, which is OK.
 
 ### Software
 
-To program the robot you will need VSCode with the FRC development plugins installed and vendor library for motor controllers (eg CTRE, Rev as a mentor if you are unsure of this). For help, see [Setting up your development environment (robot)](../basics/robot-dev-setup.md).
+To program the robot you will need VSCode with the FRC development plugins installed and vendor library for motor controllers (e.g. CTRE, Rev. Ask a mentor if you are unsure of this). For help, see [Setting up your development environment (robot)](../basics/robot-dev-setup.md).
 
 What we need to do to accomplish the objective:
 
@@ -93,7 +93,7 @@ To create the template project
 
 * Open VS Code for robot development (on desktop of programmer laptops) 
 * Press Ctrl+Shift+P to bring up Command Palette
-* Type "WPI" to filter on robot related command and select the New Robot Project option
+* Type "WPI" and select the New Robot Project option
 * Select Java as the programming language
 * Select template project option
 * Select the Iterative Robot template
@@ -137,7 +137,7 @@ What method or methods should our code to do this go in? Think about it or discu
 
 What code will you need to add? Here are some tips:
 
-* You will need to create a variable representing the motor controller. For a TalonSRX using CAN the class is `CANTalon`.
+* You will need to create a variable representing the motor controller. For a TalonSRX using CAN the class/object type is `CANTalon`.
   * The channel/ID to declare it with is determined by the wiring. A veteran member or mentor can help you determine this.
 * You will need to call a method on the motor controller object to set its speed. Check out the javadocs [here](http://www.ctr-electronics.com/downloads/api/java/html/index.html) and try to figure out what you need to call. You will be in "Percent Voltage Bus" mode.
   * An argument of `0.5` will set the motor to 50% speed forward.
