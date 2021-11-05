@@ -15,6 +15,7 @@ double y = 3.5;
 boolean z = false;
 String word = “test”;
 ```
+
 **Math Library**
 
 Java provides a library of math functions available in every Java program.
@@ -32,8 +33,8 @@ A line of code that Java will evaluate as true or false. The most common use of 
 ### Setup
 
 1. Copy the “HelloWorld” folder to C:\dev from the previous exercise.
-2. Rename the folder to be “MathExercise".
-3. From the desktop open Visual Studio code.
+2. Rename the folder to “MathExercise".
+3. From the desktop, open Visual Studio code.
 4. Select “File” --> “Open Folder” and then choose C:\dev\MathExercise.
 5. Open the file Main.java.
 6. Remove old code from previous exercise from main().
