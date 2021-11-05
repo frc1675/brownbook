@@ -10,8 +10,8 @@
         return a + b;
      }
      ```
-   * They have the following general form: ```[return type] [name]([arguement type] [arguement name])```. A method can have any number of arguments separated by commas, including 0.
-   * Therefore, the above example has a return type of double, a name of add, an arguement type of double two doubles, and arguement names a and b.
+   * They have the following general form: ```[return type] [name]([argument type] [argument name])```. A method can have any number of arguments separated by commas, including 0.
+   * Therefore, the above example has a return type of double, a name of add, an argument type of double two doubles, and argument names a and b.
    * Methods can also return ```void``` (which means nothing) and in this case do not require a ```return``` statement.
    * Use methods to organize your code by grouping related code together.
    * Use methods to reduce duplication of code for operations that must be performed many times.
