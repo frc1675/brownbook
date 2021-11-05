@@ -1,14 +1,14 @@
 # Lab 2: The Math class, conditional statements, and operators
 
-### Relevant Definitions
+### Vocabulary
 **Variable**
 
 A symbol that represents a value of a defined type. The types you are already familiar with include:
  * int: used for whole numbers (-1, 0, 1, 2, 3 etc)
  * double: used for decimal values (1.5, 4.0, etc)
- * boolean: used for true / false situations (true, false)
+ * boolean: true or false
  * String: represents a sequence of characters, always in quotes (“HelloWorld”)
- * Variables are declared as follows (the following are generic names; variable names have no impact on how a program works):
+ * Variables are declared as follows. Variable names have no impact on how a program works.
 ```java 
 int x = 1;
 double y = 3.5;
@@ -61,7 +61,7 @@ The most basic conditional statement is simply a boolean value. However, we'll n
 
 * == : equal
 * < : less than
-* /> : greater than
+* &gt; : greater than
 * <= : less than or equal to
 * />= : greater than or equal to
 
