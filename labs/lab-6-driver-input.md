@@ -9,7 +9,7 @@ In this lab we will create a robot program that reads driver input and turns a w
 The hardware required for this lab is:
 
 * A Laptop with Driver Station installed and means to connect to RoboRIO
-* A joystick or controller (we typically use XBox 360 controllers)
+* A joystick or controller
 * RoboRIO
 * PD Board and Main Breaker
 * 1 motor controller
@@ -19,7 +19,7 @@ The hardware required for this lab is:
 
 The setup should be as follows:
 
-* Plug the joystick or controller into a USB port on the Driver Station
+* Plug the joystick or controller into a USB port on the Driver Station laptop.
 * The PD Board and Main Breaker should be wired to power the RoboRIO and the motor controller with the battery.
 * The motor controller should be wired to power the motor and to communicate with the roboRIO (CAN or PWM).
 * The wheel should be connected to the output shaft of the motor in some way. The wheel will turn whenever the motor turns.
@@ -30,10 +30,10 @@ If you completed [As the Wheel Turns](turn-wheel.md), the only new element is th
 
 What we need to do to accomplish the objective:
 
-* Create an IterativeRobot template project or open your [As the Wheel Turns](turn-wheel.md) project
-* Insert code to read the joystick value
-* Insert code to use the joystick value to command the motor controller
-* Test our code
+* Create an IterativeRobot template project or open your [As the Wheel Turns](turn-wheel.md) project.
+* Insert code to read the joystick value.
+* Insert code to use the joystick value to command the motor controller.
+* Test our code.
 
 #### Create an IterativeRobot template project
 
@@ -73,4 +73,3 @@ When you test your code for the first time, always do it "on blocks". No moving 
 * What happens if you only move the joystick slightly? Could this be bad for the robot? Discuss with a mentor.
   * How can we prevent this?
 * How would you change your code if I wanted the motor to spin at half speed proportional to the joystick input? The opposite of the joystick input?
-
