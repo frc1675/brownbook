@@ -18,7 +18,8 @@
 * **Constructor**
   * Most classes have one special method, the constructor. This method is called whenever a new object of that type is created.
   * The constructor is special because it has no return type and must have the same name as the class. It looks like ```public [name]([arguments]) {```.
-  
+  * The following is an example of a class with a constructor:
+
 ```java
 public class Car {
   String model;
