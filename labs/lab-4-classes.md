@@ -117,4 +117,3 @@ NEW FILE
 * Pick five variables (attributes) and five methods (actions) that are related to each other and add them to your class.
 * Discuss with a mentor the methods you have chosen to get ideas for how you might implement them.
 * As you implement each one, call it from your main method and call myAnimal.toString() after each to see how your animal changes with each call.
-
