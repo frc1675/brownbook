@@ -2,7 +2,8 @@
 
 ### Definitions
 
-* **Method**: a named section of a program that performs a specific task.
+* **Method**
+   *  A named section of a program that performs a specific task.
    * Methods often return output when provided input. The example below computes the addition of two numbers, a and b. 
      ```java
      double add(double a, double b) {
