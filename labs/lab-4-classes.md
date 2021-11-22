@@ -20,6 +20,7 @@
   * The constructor is special because it has no return type and must have the same name as the class. It looks like ```public [name]([arguments]) {```.
   * The following is an example of a class with a constructor:
 
+NEW FILE Car.java
 ```java
 public class Car {
   String model;
@@ -48,8 +49,9 @@ public class Car {
     System.out.println("The car is going " + speed + " miles per hour.");
   }
 ```
-NEW FILE
+NEW FILE Main.java
 ```java
+public class Main {
   // Inside main, call the methods on the myCar object
   public static void main(String[] args) {
     Car myCar = new Car("CRV", 100000, 0);     // Create a myCar object and call the constructor
@@ -79,7 +81,9 @@ NEW FILE
 * Create a new file in that folder named <your-animal-here>.java where <your-animal-here> is the name of your specific animal.
 * Use VSCode to File -> Open Folder to open "ClassExercise" and begin to edit your java file.
 * Copy the following block of code into the file and replace "Animal" with <your-animal-here>
-```java
+
+ NEW FILE Animal.java
+ ```java
 public final class Animal {
     // list your variables here along with their appropriate types
     public int age;
@@ -102,9 +106,9 @@ public final class Animal {
     }
 }
 ```
-NEW FILE
+NEW FILE Main.java
 ```java
- public class Main {
+public class Main {
     public static void main(String[] args) {
         Animal myAnimal = new Animal(); //call to constructor
         myAnimal.toString();
