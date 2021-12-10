@@ -30,12 +30,12 @@ If you completed [As the Wheel Turns](turn-wheel.md), the only new element is th
 
 What we need to do to accomplish the objective:
 
-* Create an IterativeRobot template project or open your [As the Wheel Turns](turn-wheel.md) project.
+* Create an Timed Robot template project or open your [As the Wheel Turns](turn-wheel.md) project.
 * Insert code to read the joystick value.
 * Insert code to use the joystick value to command the motor controller.
 * Test our code.
 
-#### Create an IterativeRobot template project
+#### Create an TimedRobot template project
 
 If you don't have a project, see Lab 3 on how to create one. If you still have your Lab 3 project, you can use that.
 
