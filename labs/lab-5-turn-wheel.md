@@ -115,11 +115,6 @@ In FRC, if a robot is turned on, it is in one of 3 modes: Disabled, Teleoperated
   * Runs every so often when the robot is in the given mode.
     * Typically the period is 20ms as the robot runs at 50Hz. 1s/50Hz = 20ms
     * For example, `disabledPeriodic` runs every 20ms when the robot is in disabled mode.
-* continuous
-  * `autonomousContinuous`, `teleopContinuous`, `disabledContinuous`
-  * Runs as often as possible when other things aren't running in the given mode
-    * For example, `teleopContinuous` runs as often as possible when the robot is in teleop mode.
-  * We typically do not use continuous methods.
 * There is one more important method, `robotInit`, that runs once, ever, whenever the robot code starts.
 
 **QUESTION TIME!** 
