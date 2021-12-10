@@ -135,7 +135,7 @@ What code will you need to add? Here are some tips:
 
 * You will need to create a variable representing the motor controller. For a TalonSRX using CAN the class/object type is `WPI_TalonSRX`.
   * The channel/ID to declare it with is determined by the wiring. A veteran member or mentor can help you determine this.
-* You will need to call a method on the motor controller object to set its speed. Check out the javadocs [here](http://www.ctr-electronics.com/downloads/api/java/html/classcom_1_1ctre_1_1phoenix_1_1motorcontrol_1_1can_1_1_w_p_i___talon_s_r_x.html) and try to figure out what you need to call. You will be in "Percent Voltage Bus" mode.
+* You will need to call a method on the motor controller object to set its speed. Check out the javadocs ![here](http://www.ctr-electronics.com/downloads/api/java/html/classcom_1_1ctre_1_1phoenix_1_1motorcontrol_1_1can_1_1_w_p_i___talon_s_r_x.html) and try to figure out what you need to call. You will be in "Percent Voltage Bus" mode.
   * An argument of `0.5` will set the motor to 50% speed forward.
   
 #### Testing
