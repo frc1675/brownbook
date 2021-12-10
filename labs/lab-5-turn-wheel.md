@@ -96,13 +96,13 @@ To create the template project
 * Type "WPI" and select the New Robot Project option
 * Select Java as the programming language
 * Select template project option
-* Select the Iterative Robot template
+* Select the Timed Robot template
 * Give your project a name.
 * Follow the on screen prompts to complete project setup
 
 If successful you will have a new project in VSCode and in that project will be a Robot.java file with a lot of template code and comments.
 
-#### Understand How IterativeRobot Works
+#### Understand How Timed Robot Works
 
 In FRC, if a robot is turned on, it is in one of 3 modes: Disabled, Teleoperated, or Autonomous. In Disabled mode all outputs are disabled. In Autonomous all input from the Driver Station is disabled. In the IterativeRobot framework your code can be called in one of 3 ways: init, periodic, and continuous. Each mode has its own version of a method for these ways. (ex. `autonomousInit`, `disabledPeriodic`, `teleopContinuous`).
 
@@ -137,7 +137,7 @@ What method or methods should our code to do this go in? Think about it or discu
 
 What code will you need to add? Here are some tips:
 
-* You will need to create a variable representing the motor controller. For a TalonSRX using CAN the class/object type is `CANTalon`.
+* You will need to create a variable representing the motor controller. For a TalonSRX using CAN the class/object type is `WPI_TalonSRX`.
   * The channel/ID to declare it with is determined by the wiring. A veteran member or mentor can help you determine this.
 * You will need to call a method on the motor controller object to set its speed. Check out the javadocs [here](http://www.ctr-electronics.com/downloads/api/java/html/index.html) and try to figure out what you need to call. You will be in "Percent Voltage Bus" mode.
   * An argument of `0.5` will set the motor to 50% speed forward.
