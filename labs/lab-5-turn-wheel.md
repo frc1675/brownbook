@@ -99,12 +99,13 @@ To create the template project
 * Select the Timed Robot template
 * Give your project a name.
 * Follow the on screen prompts to complete project setup
+* Add the CTRE Vendor libraries, see how to add 3rd party libraries (here)[https://docs.wpilib.org/en/stable/docs/software/vscode-overview/3rd-party-libraries.html] 
 
 If successful you will have a new project in VSCode and in that project will be a Robot.java file with a lot of template code and comments.
 
 #### Understand How Timed Robot Works
 
-In FRC, if a robot is turned on, it is in one of 3 modes: Disabled, Teleoperated, or Autonomous. In Disabled mode all outputs are disabled. In Autonomous all input from the Driver Station is disabled. In the IterativeRobot framework your code can be called in one of 3 ways: init, periodic, and continuous. Each mode has its own version of a method for these ways. (ex. `autonomousInit`, `disabledPeriodic`, `teleopContinuous`).
+In FRC, if a robot is turned on, it is in one of 3 modes: Disabled, Teleoperated, or Autonomous. In Disabled mode all outputs are disabled. In Autonomous all input from the Driver Station is disabled. In the TimedRobot framework your code can be called in one of 2 ways: init, periodic. Each mode has its own version of a method for these ways. (ex. `autonomousInit`, `disabledPeriodic`.
 
 * init
   * `autonomousInit`, `teleopInit`, `disabledInit`
