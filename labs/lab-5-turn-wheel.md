@@ -99,7 +99,7 @@ To create the template project
 * Select the Timed Robot template
 * Give your project a name.
 * Follow the on screen prompts to complete project setup
-* Add the CTRE Vendor libraries, see how to add 3rd party libraries (here)[https://docs.wpilib.org/en/stable/docs/software/vscode-overview/3rd-party-libraries.html] 
+* Add the CTRE Vendor libraries, see how to add 3rd party libraries ![here](https://docs.wpilib.org/en/stable/docs/software/vscode-overview/3rd-party-libraries.html) 
 
 If successful you will have a new project in VSCode and in that project will be a Robot.java file with a lot of template code and comments.
 
