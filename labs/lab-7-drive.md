@@ -22,21 +22,21 @@ The setup should be as follows:
 
 What we need to do to accomplish the objective:
 
-* Create an IterativeRobot template project.
+* Create an Timed Robot template project.
 * Write code to read the Y axis of both sticks on the controller.
 * Write code to be able to command all motor controllers that control wheel motors.
 * Determine an algorithm to turn your joystick inputs into commands to the motor controllers.
 * Write code to express that algorithm.
 
-#### Create an IterativeRobot template project
+#### Create an TimedRobot template project
 
-If you don't have a project, see [As the Wheel Turns](turn-wheel.md) on how to create one.
+If you don't have a project, see [As the Wheel Turns](lab-5-turn-wheel.md) on how to create one.
 
 #### Write Code to Read the Joysticks
 
 The first step is to read the input value from both control sticks' Y-axis.
 
-This should be relatively easy - refer to your [You Turn the Wheel](driver-input.md) project if you need help.
+This should be relatively easy - refer to your [You Turn the Wheel](lab-6-driver-input.md) project if you need help.
 
 #### Write Code to Command the Motor Controllers
 
@@ -58,7 +58,7 @@ Try writing the code that expresses your algorithm above. Don't be afraid to tak
 
 **QUESTION TIME!**
 * Did some wheels turn the opposite direction you thought they would? Why might that be?
-* How did you fix the above problem if you encountered it? Try looking in the javadocs for the motor controller (see [As the Wheel Turns](turn-wheel.md)). Are there any methods that can help your solution or make it cleaner?
+* How did you fix the above problem if you encountered it? Try looking in the javadocs for the motor controller (see [As the Wheel Turns](lab-5-turn-wheel.md)). Are there any methods that can help your solution or make it cleaner?
   
 #### Testing
 
@@ -71,6 +71,6 @@ Make sure a veteran student or mentor loads the correct code back into the robot
 
 ### Post Lab Questions
 
-* Did you implement any code to resolve the post-lab question from [You Turn the Wheel](driver-input.md)?
+* Did you implement any code to resolve the post-lab question from [You Turn the Wheel](lab-6-driver-input.md)?
 * Try to drive the robot at half-speed or 3/4 speed straight forward. It can be pretty difficult. Can you think of a way to make it easier?
 * Can you come up with any other control algorithms using the control sticks? Be creative!
