@@ -78,7 +78,7 @@ The design team determines what the ratio from the motor to the wheel will be. I
 
 ### Software
 
-To program the robot you will need VSCode with the FRC development plugins installed and vendor library for motor controllers (e.g. CTRE, Rev. Ask a mentor if you are unsure of this). For help, see ![Setting up your development environment (robot)](../basics/robot-dev-setup.md).
+To program the robot you will need VSCode with the FRC development plugins installed and vendor library for motor controllers (e.g. CTRE, Rev. Ask a mentor if you are unsure of this). For help, see [Setting up your development environment (robot)](../basics/robot-dev-setup.md).
 
 What we need to do to accomplish the objective:
 
@@ -99,7 +99,7 @@ To create the template project
 * Select the Timed Robot template
 * Give your project a name.
 * Follow the on screen prompts to complete project setup
-* Add the CTRE Vendor libraries, see how to add 3rd party libraries ![here](https://docs.wpilib.org/en/stable/docs/software/vscode-overview/3rd-party-libraries.html) 
+* Add the CTRE Vendor libraries, see how to add 3rd party libraries [here](https://docs.wpilib.org/en/stable/docs/software/vscode-overview/3rd-party-libraries.html) 
 
 If successful you will have a new project in VSCode and in that project will be a Robot.java file with a lot of template code and comments.
 
@@ -135,7 +135,7 @@ What code will you need to add? Here are some tips:
 
 * You will need to create a variable representing the motor controller. For a TalonSRX using CAN the class/object type is `WPI_TalonSRX`.
   * The channel/ID to declare it with is determined by the wiring. A veteran member or mentor can help you determine this.
-* You will need to call a method on the motor controller object to set its speed. Check out the javadocs ![here](http://www.ctr-electronics.com/downloads/api/java/html/classcom_1_1ctre_1_1phoenix_1_1motorcontrol_1_1can_1_1_w_p_i___talon_s_r_x.html) and try to figure out what you need to call. You will be in "Percent Voltage Bus" mode.
+* You will need to call a method on the motor controller object to set its speed. Check out the javadocs [here](http://www.ctr-electronics.com/downloads/api/java/html/classcom_1_1ctre_1_1phoenix_1_1motorcontrol_1_1can_1_1_w_p_i___talon_s_r_x.html) and try to figure out what you need to call. You will be in "Percent Voltage Bus" mode.
   * An argument of `0.5` will set the motor to 50% speed forward.
   
 #### Testing
