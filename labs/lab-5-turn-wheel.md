@@ -78,16 +78,16 @@ The design team determines what the ratio from the motor to the wheel will be. I
 
 ### Software
 
-To program the robot you will need VSCode with the FRC development plugins installed and vendor library for motor controllers (e.g. CTRE, Rev. Ask a mentor if you are unsure of this). For help, see [Setting up your development environment (robot)](../basics/robot-dev-setup.md).
+To program the robot you will need VSCode with the FRC development plugins installed and vendor library for motor controllers (e.g. CTRE, Rev. Ask a mentor if you are unsure of this). For help, see ![Setting up your development environment (robot)](../basics/robot-dev-setup.md).
 
 What we need to do to accomplish the objective:
 
-* Create an IterativeRobot template project
-* Understand how IterativeRobot works
+* Create an Timed Robot template project
+* Understand how Timed Robot works
 * Insert code to make the motor controller turn the wheel
 * Test our code
 
-#### Create an IterativeRobot template project
+#### Create an Timed Robot template project
 
 To create the template project
 
