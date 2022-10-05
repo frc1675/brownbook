@@ -101,8 +101,8 @@ public final class Animal {
     }
     
     // For every variable you add to your class add a new line to print
-    public void toString() {
-        System.out.println("Age = " + age);
+    public String toString() {
+        return "Age = " + age;
     }
 }
 ```
@@ -111,13 +111,17 @@ NEW FILE Main.java
 public class Main {
     public static void main(String[] args) {
         Animal myAnimal = new Animal(); //call to constructor
-        myAnimal.toString();
+        System.out.println(myAnimal);
         myAnimal.growOlder(10);
-        myAnimal.toString();
+        System.out.println(myAnimal);
     }
 }
 ```
 * Make sure you can "Run" your code to confirm it can build and run before moving to next step.
 * Pick five variables (attributes) and five methods (actions) that are related to each other and add them to your class.
 * Discuss with a mentor the methods you have chosen to get ideas for how you might implement them.
-* As you implement each one, call it from your main method and call myAnimal.toString() after each to see how your animal changes with each call.
+* As you implement each one, call it from your main method and print myAnimal after each to see how your animal changes with each call.
+ 
+ABOUT THE ```toString``` METHOD 
+ 
+Note that the toString method of myAnimal is automatically called by System.out.println. The toString method is present in most Java objects. The toString method is always automatically called when an object is printed, so make sure that your toString method returns a clear representation of your object as a string.
