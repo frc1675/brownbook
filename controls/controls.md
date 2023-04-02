@@ -1,6 +1,6 @@
-## Welcome to the Brownbook
+## Welcome to Brownbook
 
-The Brownbook is your guide to everything controls and programming on FRC1675.
+Brownbook is your guide to everything controls and programming on FRC1675.
 
 ### The Basics
 
