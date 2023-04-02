@@ -1,4 +1,4 @@
-## Welcome to the Brownbook
+## Welcome to Brownbook
 
 Brownbook is a repository of institutional knowledge gained by FRC 1675 that is preserved for future readers.
 
@@ -8,4 +8,4 @@ Brownbook is a repository of institutional knowledge gained by FRC 1675 that is 
 
 
 ### Contributing to brownbook
-* [Contributing](contributing/contributing.md) - Processes and philosophy behind expanding brownbook
+* [Contributing](contributing/contributing-to-brownbook.md) - Processes and philosophy behind expanding brownbook
