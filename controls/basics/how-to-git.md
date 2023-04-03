@@ -1,12 +1,16 @@
+### What is git and what is git used for?
+
+Git is the stupid content tracker as dubbed by Linus Torvalds it's creator. On a more serious note, Git is something called a content tracker which is capable of cataloging all changes you make to tracked files. Git and other content trackers allow for programmers to work both individually and collaboratively through allowing both local and global changes to a codebase.
+
 ## How to use git
 
-### What is git
+Through 
 
-### What is git used for
+<img src="git-cycle.png" alt="git development cycle">
 
 ### Create a github account
 
-You will need to create an account on github.com . Make your username something professional! You may keep this account for a long time and use it to show examples of code you've written.
+You will need to create an account on github.com. Make your username something professional! You may keep this account for a long time and use it to show examples of code you've written.
 
 ### Install git
 
