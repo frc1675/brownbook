@@ -17,11 +17,11 @@ Commonly Used Commands:
 
 <img src="../../assets/images/git-cycle.png" alt="git development cycle">
 
-For more info on commands and git, type: <a href="https://git-scm.com/docs">"man git"</a> into your command line. Or watch this <a href="https://www.youtube.com/watch?v=HkdAHXoRtos" >video</a>.
+For more info on commands and git, type: <a href="https://git-scm.com/docs" target="_blank">"man git"</a> into your command line. Or watch this <a href="https://www.youtube.com/watch?v=HkdAHXoRtos" target="_blank">video</a>.
 
 ### Create a github account
 
-Github is one such online git service provider. To create a new github account follow the instructions below or watch <a href="https://www.youtube.com/watch?v=HkdAHXoRtos">this video</a>!
+Github is one such online git service provider. To create a new github account follow the instructions below or watch <a href="https://www.youtube.com/watch?v=HkdAHXoRtos" target="_blank">this video</a>!
 
     1. Visit GitHub and Click Sign Up!
     2. Enter Email: Professional/Personal
