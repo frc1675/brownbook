@@ -42,5 +42,5 @@ When installing select these options:
 
 Those are the important ones to make sure, default on every other screen should be fine.
 
-### Having a GitHub account is paramount to contributing to 1675's codebase, it may seem overwelming at first, but keep at it and in no time you'll soon be a master! To Continue and Find Information on Contributions visit: <a href="./how-to-contribute.md">How-To-Contribute</a>.
+ Having a GitHub account is paramount to contributing to 1675's codebase, it may seem overwelming at first, but keep at it and in no time you'll soon be a master! To Continue and Find Information on Contributions visit: <a href="./how-to-contribute.md">How-To-Contribute</a>.
 
