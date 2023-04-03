@@ -23,13 +23,11 @@ For more info on commands and git, type: <a href="https://git-scm.com/docs">"man
 
 Github is one such online git service provider. To create a new github account follow the instructions below or watch <a href="https://www.youtube.com/watch?v=HkdAHXoRtos">this video</a>!
 
-<ol>
-    <li>Visit GitHub and Click Sign Up!</li>
-    <li>Enter Email: Professional/Personal</li>
-    <li>Create a Password: Memorable!</li>
-    <li>Select a Username: Professional Recommended</li>
-    <li>Verify Email and Enjoy!</li>
-<ol>
+    1. Visit GitHub and Click Sign Up!
+    2. Enter Email: Professional/Personal
+    3. Create a Password: Memorable!
+    4. Select a Username: Professional Recommended
+    5. Verify Email and Enjoy!
 
 ### Install git
 
