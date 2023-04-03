@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="../../assets/css/style.css">
+<link rel="stylesheet" href="../../assets/css/style.scss">
 
 ## What is git and what is it used for? 
 
