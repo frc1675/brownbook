@@ -2,6 +2,7 @@
 
 first time workflow:
 
+* make gh account
 * fork
 * set up gh pages
 * set up About to link to gh pages
