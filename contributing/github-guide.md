@@ -1,11 +1,11 @@
 ## Github for Non-programmers
 
-workflow:
+first time workflow:
 
-* if needed: fork
-* sync to frc1675
-* start codespace / open codespace
-* if needed: sync codespace to your fork
+* fork
+* set up gh pages
+* set up About to link to gh pages
+* create new codespace 
 * make changes
 * preview changes in markdown
 * stage changes
@@ -16,5 +16,10 @@ workflow:
 * stop codespace
 * make pull request
 
-small changes:
-* show web interface
+future times:
+* small 1 file changes: web interface
+* otherwise
+* sync to frc1675
+* start/create codespace
+* sync codespace to fork
+* continue from "make changes"
