@@ -60,7 +60,7 @@ You can't cause any (permanent) damage, or any damage to the main brownbook, so 
 #### Preview your changes
 Brownbook uses GitHub pages that are generated from Markdown, but you can preview your files to see how Markdown is formatting them. Click this icon near the top of the editor to see a Markdown preview pane.
 
-![Markdown preview](./images/markdown-preview.PNG)
+![Markdown preview](./images/md-preview.PNG)
 
 #### Stage changes, commit, and push
 Once you are happy with some changes they need to be moved into your brownbook repository.
