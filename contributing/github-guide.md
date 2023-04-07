@@ -49,7 +49,7 @@ To create a new codespace open the green Code drowndown in the upper middle of t
 This will either open a new tab or move you to a new page which runs a text editor in the cloud for you to use through your browser. It autosaves your changes as you work.
 
 #### Make changes
-The content of brownbook is written in Markdown. You can find a guide of how to do markdown formatting [here](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax). You can also look at the other files in brownbook for examples or lean on other brownbook contributors to help you get started.
+The content of brownbook is written in Markdown. You can find a guide of how to do Markdown formatting [here](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax). You can also look at the other files in brownbook for examples or lean on other brownbook contributors to help you get started.
 
 You can make new files and directories using the buttons here near the top of the file list.
 
@@ -58,14 +58,14 @@ You can make new files and directories using the buttons here near the top of th
 You can't cause any (permanent) damage, or any damage to the main brownbook, so feel free to experiment.
 
 #### Preview your changes
-Brownbook uses GitHub pages that are generated from Markdown, but you can preview your files to see how Markdown is formatting them. Click this icon near the top of the editor to see a Markdown preview pane.
+Brownbook uses GitHub Pages that are generated from Markdown, but you can preview your files to see how Markdown is formatting them. Click this icon near the top of the editor to see a Markdown preview pane.
 
 ![Markdown preview](./images/md-preview.PNG)
 
 #### Stage changes, commit, and push
 Once you are happy with some changes they need to be moved into your brownbook repository.
 
-First, the changes need to be **staged**. This is you signifying that you want the changed to be added to your repository. Click the Source Control icon on the left side bar (4th from the top) and the file explorer will go away and show you source control operations.
+First, the changes need to be **staged**. This is you signifying that you want the changes to be added to your repository. Click the Source Control icon on the left side bar (4th from the top) and the file explorer will go away and show you source control operations.
 
 ![Stage changes](./images/stage-changes.PNG)
 
@@ -73,15 +73,15 @@ You can stage each of your files separately or stage them all at once using the 
 
 ![Stage all changes](./images/stage-all-changes.PNG)
 
-After staging your changes, write a brief descriptive message in the text box above the Commit button. Click the Commit button to **commit** all **staged** changes. Each commit is a set of changes that can easily be reversed or applied to another repository.
+After staging your changes, write a brief descriptive message in the text box above the Commit button. Click the Commit button to **commit** all staged changes. Each commit is a set of changes that can easily be reversed or applied to another repository.
 
 ![Commit](./images/commit.PNG)
 
-After your commit is complete, there is one more step. We must **push** all outstanding commits up to your brownbook repository so that they are available for everyone to see. The commit button has changed and will **push** when clicked.
+After your commit is complete, there is one more step. We must **push** all outstanding commits up to your brownbook repository so that they are available for everyone to see. The commit button has changed and will push when clicked.
 
 ![Push](./images/push.PNG)
 
-You can also use the menu to **Push** your commit(s).
+You can also use the menu to push your commit(s).
 
 ![Push](./images/push2.PNG)
 
@@ -94,13 +94,13 @@ It won't take very long. This is what it will look like when the page generation
 
 ![Actions](./images/actions-done.PNG)
 
-Once page generation is complete you can look at your changes in GitHub pages through the link we set to show on the Code tab of your repository page. Click around, make sure your changes look as you like and that all images and links work correctly.
+Once page generation is complete you can look at your changes in GitHub Pages through the link we set to show on the Code tab of your repository page. Click around, make sure your changes look as you like and that all images and links work correctly.
 
 #### Iterate your changes
 Continue through the change, stage, commit, push, check steps until you are happy with your content. Make sure it meets the [brownbook standards](./standards.md)!
 
 #### Stop codespace
-Codespaces stop themselves automatically after 30 min of activity, but you can stop your codespace when you are finished to save codespace time. (You can also turn down the automatic stop time in your account settings). Your codespace name will not match, it is randomly generated.
+Codespaces stop themselves automatically after 30 min of inactivity, but you can stop your codespace when you are finished to save codespace time. (You can also turn down the automatic stop time in your account settings). Your codespace name will not match the picture, it is randomly generated.
 
 ![Stop codespace](./images/stop-codespace.PNG)
 
