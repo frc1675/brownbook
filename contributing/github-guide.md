@@ -40,13 +40,10 @@ Check the checkbox in this dialog to "Use your GitHub Pages website".
 Now the About section will always have a link for you to go directly to your GitHub Pages for your brownbook fork.
 
 #### Create a new codespace
-For any editing beyond small changes in 1 file, we recommend using the GitHub feature Codespaces. Your account has 120 hours of free codespace time per month which is way more than enough!
+For any editing beyond small changes in 1 file, we recommend using the GitHub web editor feature.
+To open a fully-fledged editor in GitHub press the `.` (period) key while in your repository.
 
-To create a new codespace open the green Code drowndown in the upper middle of the page and click "Create codespace on master".
-
-![Create codespace](./images/create-codespace.PNG)
-
-This will either open a new tab or move you to a new page which runs a text editor in the cloud for you to use through your browser. It autosaves your changes as you work.
+This will new page which runs a text editor in the cloud for you to use through your browser. It autosaves your changes as you work.
 
 #### Make changes
 The content of brownbook is written in Markdown. You can find a guide of how to do Markdown formatting [here](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax). You can also look at the other files in brownbook for examples or lean on other brownbook contributors to help you get started.
@@ -85,6 +82,10 @@ You can also use the menu to push your commit(s).
 
 ![Push](./images/push2.PNG)
 
+Once you have finished you can return to your repository by clicking the menu in the upper left and selecting "Go to Repository".
+
+![Go to Repository](./images/go-to-repo.PNG)
+
 #### View changes on GitHub Pages
 Once your commits are pushed to your brownbook repository, GitHub will process your repository data and generate GitHub Pages. You can watch the progress of this on the Actions tab of your repository page.
 
@@ -98,11 +99,6 @@ Once page generation is complete you can look at your changes in GitHub Pages th
 
 #### Iterate your changes
 Continue through the change, stage, commit, push, check steps until you are happy with your content. Make sure it meets the [brownbook standards](./standards.md)!
-
-#### Stop codespace
-Codespaces stop themselves automatically after 30 min of inactivity, but you can stop your codespace when you are finished to save codespace time. (You can also turn down the automatic stop time in your account settings). Your codespace name will not match the picture, it is randomly generated.
-
-![Stop codespace](./images/stop-codespace.PNG)
 
 #### Make a pull request
 The final step is creating a **pull request** to the main brownbook repository. The name sounds backwards because it means you are "requesting" the other repository to pull your changes in.
