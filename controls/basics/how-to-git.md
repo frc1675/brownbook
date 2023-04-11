@@ -1,27 +1,33 @@
 ## What is git and what is it used for? 
 
-<img src="../../assets/images/git-logo.png" alt="git logo" style="width:150px; float: right; padding: 25px;">
-Git is something called a content tracker which is capable of cataloging all changes you make to tracked files. Git centers around the manipulation of branches of code, the merging and converging of existing code branches to improve a ending product. When you create or edit a file on your computer, the changes you make locally will be recorded and can differ from that of the global codebase otherwise known as the main branch. This dissonance provides greater quality control to the maintainer (permitting these changes), and allows for a more adaptable development cycle for the programmer through quality of life commands such as: "git revert", "git diff", and "git merge" How all of these benefits are achieved is through proper utilization.
+<img id="git-logo" src="../../assets/images/git-logo.png" alt="git-logo" style="width: 150px; float: right; padding: 25px" />
+
+Git is a version control system which is capable of cataloging all changes you make to tracked files. Git centers around the manipulation of branches of code, to work separately on and eventually merge different sets of code to collaborate on a final product. When you create or edit a file on your computer, the changes you make locally can be recorded and can differ from that of the "global" code repository otherwise known as `origin` (for us, this one is hosted under the frc1675 organization). We use git with a specific set of commands and GitHub interactions to (mostly) enforce a process that provides a higher level of quality assurance via review and testing before new code joins the rest. How all of these benefits are achieved is through proper utilization.
+
 
 ### How to use git
 
 Commonly Used Commands:
-<ul>
-    <li>git add %filename%</li>
-    The git add command adds a filename to the tracker and its changes will be recorded by git. Only files added through the git add command will be included in commits and pushes later down the line.
-    <li>git commit -m %user message%</li>
+
+* `git add %filename%`
+
+    The `git add` command adds a filename to the tracker and its changes will be recorded by git. Only files added through the `git add` command will be included in commits and pushes later down the line.
+* `git commit -m %user message%`
+
     The git commit command will record all changes that you make locally on your device. Said commit will be provided a unique code which can be referenced in other commands ie: revert, push, diff. All commits must contain a message, when writing the description try to be as descriptive as possible while also not overwhelming the reviewer.
-    <li>git push origin %branchname%</li>
+* `git push origin %branchname%`
+
     How we stage changes in most content tracked codebases is through the introduction of new branches containing our code. The git push command takes our locally committed changes and "pushes" them to the external server connected to the repository.
-</ul>
 
-<img src="../../assets/images/git-cycle.png" alt="git development cycle">
 
-For more info on commands and git, type: <a href="https://git-scm.com/docs" target="_blank">"man git"</a> into your command line. Or watch this <a href="https://www.youtube.com/watch?v=HkdAHXoRtos" target="_blank">video</a>.
+![git development cycle](../../assets/images/git-cycle.png)
 
-### Create a github account
 
-Github is one such online git service provider. To create a new github account follow the instructions below or watch <a href="https://www.youtube.com/watch?v=HkdAHXoRtos" target="_blank">this video</a>!
+For more info on commands and git, type: [`man git`]("https://git-scm.com/docs") into your command line. Or watch this [video]("https://www.youtube.com/watch?v=HkdAHXoRtos").
+
+### Create a GitHub account
+
+GitHub is one such online git service provider. To create a new GitHub account follow the instructions below or watch [video](https://www.youtube.com/watch?v=HkdAHXoRtos)!
 
     1. Visit GitHub and Click Sign Up!
     2. Enter Email: Professional/Personal
@@ -42,5 +48,4 @@ When installing select these options:
 
 Those are the important ones to make sure, default on every other screen should be fine.
 
- Having a GitHub account is paramount to contributing to 1675's codebase, it may seem overwelming at first, but keep at it and in no time you'll soon be a master! To Continue and Find Information on Contributions visit: <a href="./how-to-contribute.md">How-To-Contribute</a>.
-
+ Having a GitHub account is required for contributing to 1675's codebase. It may seem overwhelming at first, but keep at it and in no time you'll soon be a master! To continue and find information on contributing code visit: [How to Contribute](./how-to-contribute.md).
