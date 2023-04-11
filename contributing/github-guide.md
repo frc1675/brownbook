@@ -39,7 +39,7 @@ Check the checkbox in this dialog to "Use your GitHub Pages website".
 
 Now the About section will always have a link for you to go directly to your GitHub Pages for your brownbook fork.
 
-#### Create a new codespace
+#### Open the editor
 For any editing beyond small changes in 1 file, we recommend using the GitHub web editor feature.
 To open a fully-fledged editor in GitHub press the `.` (period) key while in your repository.
 
@@ -70,17 +70,9 @@ You can stage each of your files separately or stage them all at once using the 
 
 ![Stage all changes](./images/stage-all-changes.PNG)
 
-After staging your changes, write a brief descriptive message in the text box above the Commit button. Click the Commit button to **commit** all staged changes. Each commit is a set of changes that can easily be reversed or applied to another repository.
+After staging your changes, write a brief descriptive message in the text box above the Commit button. Click the "Commit & Push" button to **commit** all staged changes and **push** them to your repository. Each commit is a set of changes that can easily be reversed or applied to another repository.
 
-![Commit](./images/commit.PNG)
-
-After your commit is complete, there is one more step. We must **push** all outstanding commits up to your brownbook repository so that they are available for everyone to see. The commit button has changed and will push when clicked.
-
-![Push](./images/push.PNG)
-
-You can also use the menu to push your commit(s).
-
-![Push](./images/push2.PNG)
+![Commit & Push](./images/commit-and-push.PNG)
 
 Once you have finished you can return to your repository by clicking the menu in the upper left and selecting "Go to Repository".
 
@@ -125,14 +117,3 @@ It will open a form for your to fill out. Write a title and description for your
 
 You have formally requested your changes be moved into brownbook! At this point some number of brownbook contributors will review your changes, which may need additional changes before being merged in.
 
-### Making additional changes
-
-WIP
-
-future times:
-* small 1 file changes: web interface
-* otherwise
-* sync to frc1675
-* start/create codespace
-* sync codespace to fork
-* continue from "make changes"
