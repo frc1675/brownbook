@@ -80,6 +80,7 @@ First, the changes need to be **staged**.
 This is you signifying that you want the changes to be added to your repository. 
 Click the Source Control icon on the left side bar (4th from the top) and the file explorer will go away and show you source control operations.
 
+**JTPTODO point at thing being tooltipped**
 ![Stage changes](./images/stage-changes.PNG)
 
 You can stage each of your files separately or stage them all at once using the menu.
