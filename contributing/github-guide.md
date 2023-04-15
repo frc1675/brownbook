@@ -1,3 +1,8 @@
+---
+title: The title you want for the site
+description: test description
+---
+
 ## GitHub for Non-programmers
 
 This guide will take you through contributing to brownbook step-by-step, assuming you have never used GitHub before. 
