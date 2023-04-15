@@ -6,7 +6,7 @@ Brownbook is a repository of institutional knowledge gained by FRC 1675 that is 
 ### Categories
 * [Controls](controls/controls.md) - Controls systems and programming
 
-* [Mechanical](controls/mechanical-main.md) - Mechanical design and implementation
+* [Mechanical](mechanical/mechanical-main.md) - Mechanical design and implementation
 
 
 ### Contributing to brownbook
