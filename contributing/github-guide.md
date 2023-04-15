@@ -27,7 +27,7 @@ Go to the Settings tab of your repository and select "Pages" on the left.
 
 ![Pages settings](./images/pages-settings.PNG)
 
-Match your settings with those in the picture above - namely "Deploy from a branch" and selecting "master" and "/ (root)".
+Match your settings with those in the picture above - namely "Deploy from a branch" and selecting "master" and "/ (root)". Then click Save.
 
 Go back to the default (Code) tab of your repository and hit the gear in the About section on the left side.
 
@@ -41,14 +41,14 @@ Now the About section will always have a link for you to go directly to your Git
 
 #### Open the editor
 For any editing beyond small changes in 1 file, we recommend using the GitHub web editor feature.
-To open a fully-fledged editor in GitHub press the `.` (period) key while in your repository.
+To open the web editor in GitHub press the `.` (period) key while in your repository.
 
 This will new page which runs a text editor in the cloud for you to use through your browser. It autosaves your changes as you work.
 
 #### Make changes
 The content of brownbook is written in Markdown. You can find a guide of how to do Markdown formatting [here](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax). You can also look at the other files in brownbook for examples or lean on other brownbook contributors to help you get started.
 
-You can make new files and directories using the buttons here near the top of the file list.
+You can make new files and directories using the buttons here near the top of the file list. THe buttons will appear when you mouse over the area or have something selected in the explorer.
 
 ![New file](./images/new-file.PNG)
 
