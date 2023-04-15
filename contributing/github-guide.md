@@ -1,6 +1,6 @@
 ---
-title: The title you want for the site
-description: test description
+title: Github for Non-programmers
+description: How to use GitHub to provide brownbook content
 ---
 
 ## GitHub for Non-programmers
