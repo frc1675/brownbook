@@ -4,6 +4,7 @@ Try to follow this list of standards when writing content for brownbook. Reviewe
 
 ### General
 * Content should be free of spelling, grammar, punctuation, or formatting errors.
+* Each sentence should be on its own line. In Markdown a paragraph break is done by 2 line breaks. Each sentence on one line makes reviewing and suggesting easier when it is time to process a pull request.
 
 ### "Meta"
 * Use "brownbook" as a proper noun, not "the brownbook"
