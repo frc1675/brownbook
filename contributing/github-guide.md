@@ -36,9 +36,10 @@ Next, we will set up your repository to build and display your repository data a
 
 Go to the Settings tab of your repository and select "Pages" on the left.
 
+**JTPTODO AFTER MERGE take new pic that shows main instead of master**
 ![Pages settings](./images/pages-settings.PNG)
 
-Match your settings with those in the picture above - namely "Deploy from a branch" and selecting "master" and "/ (root)". 
+Match your settings with those in the picture above - namely "Deploy from a branch" and selecting "main" and "/ (root)". 
 Then click the Save button.
 
 Go back to the default (Code) tab of your repository and hit the gear in the About section on the left side.
@@ -134,11 +135,13 @@ Your changes are in your fork, so you need to click this link to compare across 
 
 Choose your fork to be the head repository.
 
+**JTPTODO AFTER MERGE take new pic that shows main instead of master**
 ![Choose head repository](./images/choose-head-repo.PNG)
 
 After selecting your fork, the page should auto-populate with all the changes between your fork and the main brownbook repository. 
 At this point you can click the green button to create the pull request.
 
+**JTPTODO AFTER MERGE take new pic that shows main instead of master**
 ![Create pull request](./images/create-pr-final.PNG)
 
 It will open a form for your to fill out. 
