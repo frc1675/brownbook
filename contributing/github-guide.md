@@ -1,5 +1,5 @@
 ---
-title: Github for Non-programmers
+title: GitHub for Non-programmers
 description: How to use GitHub to provide brownbook content
 ---
 
