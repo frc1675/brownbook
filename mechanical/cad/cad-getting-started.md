@@ -46,3 +46,13 @@ Team 1675 has standardized on using Onshape as our CAD package to design robots.
 2. Enter your login info on the following page and click "Sign In"
 
 ![Onshape Sign-in](/mechanical/cad/cad-images/Onshape_SignIn.PNG)
+
+3. After logging in you should see a screen that looks similar to this (you will not see all of these projects, as this screen shows recently viewed projects): 
+
+![Onshape Main Screen](/mechanical/cad/cad-images/Onshape_MainScreen.PNG)
+
+4. After successfully logging in talk to a mentor (Adam) to add your account to the team in Onshape. 
+
+5. When you are added to the team, you should see the following link in the left menu, which will give you access to folders similar to what is seen in the screenshot.
+
+![Onshape Team Page](/mechanical/cad/cad-images/Onshape_teampage.PNG)
