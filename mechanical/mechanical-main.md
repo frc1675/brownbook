@@ -6,6 +6,7 @@
 - Common parts suppliers
 
 ### CAD (Computer-Aided Design)
-- [Onshape - Getting Started](/mechanical/cad/cad-getting-started.md)
+- [Onshape - Getting Started](./cad/cad-getting-started.md)
+
 - OnShape Tutorials
 - 1675 CAD Processes
