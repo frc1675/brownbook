@@ -17,4 +17,6 @@ Team 1675 has standardized on using Onshape as our CAD package to design robots.
 
 ### Creating an Account
 
-1. Navigate to 
+1. Using your preferred web browser, navigate to [Onshape.com](https://pages.github.com/)
+
+2. 
