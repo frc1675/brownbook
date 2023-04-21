@@ -7,6 +7,5 @@
 
 ### CAD (Computer-Aided Design)
 - [Onshape - Getting Started](./cad/cad-getting-started.md)
-
-- OnShape Tutorials
+- [Onshape - Learning Resources](./cad/onshape-learning-resource.md)
 - 1675 CAD Processes
