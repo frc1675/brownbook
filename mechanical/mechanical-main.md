@@ -7,5 +7,5 @@
 
 ### CAD (Computer-Aided Design)
 - [Onshape - Getting Started](./cad/cad-getting-started.md)
-- [Onshape - Learning Resources](./cad/onshape-learning-resource.md)
-- 1675 CAD Processes
+- [Onshape - CAD for Robotics](./cad/cad-for-robotics.md)
+- [1675 CAD Workflow](./cad/cad-workflow.md)
