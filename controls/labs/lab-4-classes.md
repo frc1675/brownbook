@@ -95,13 +95,12 @@ public final class Animal {
 
     // list your methods here along with their appropriate return types
     // and create a template for them without populating them with code yet
-    public int growOlder(int years) {
+    public void growOlder(int years) {
         age = age + years;
-        return age;
     }
     
     // For every variable you add to your class add a new line to print
-    public void toString() {
+    public void printAge() {
         System.out.println("Age = " + age);
     }
 }
@@ -111,9 +110,9 @@ NEW FILE Main.java
 public class Main {
     public static void main(String[] args) {
         Animal myAnimal = new Animal(); //call to constructor
-        myAnimal.toString();
+        myAnimal.printAge();
         myAnimal.growOlder(10);
-        myAnimal.toString();
+        myAnimal.printAge();
     }
 }
 ```
