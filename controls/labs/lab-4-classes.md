@@ -62,61 +62,77 @@ public class Main {
 }
 ```
   
-### Exercise #1
+### Brainstorming #1
 
 * Pick your favorite animal that you will create a class of.
-* Don't code anything yet, just open a Notepad to write down your notes.
-* List attributes or information that describe your animal. 
+* Don't code anything yet, just jot down some potential ideas.
+* List some attributes or information that describe your animal. 
    * Examples are height, weight, age, health, location, canSwim, canFly, etc.
    * For each attribute, think of a good variable name and correct variable type to represent it.
 * Begin to think of actions this animal can take as they relate to the attributes you have chosen. 
    * Think what how these attributes might change as certain actions occur.
-   * For example, what happens to your animal as it gets older?
-   * For each action, think of a good method name and correct method return type to represent it (eg int, double, etc)
+   * For example, what happens to your animal as it gets older? (age increases?)
+   * For each action, think of an easy to understand method name and correct method return type to represent it (eg int, double, etc)
    
-### Exercise #2
+### Exercise #1
 
-* Now lets code up your group's favorite animal.
+* Now lets code up your animal!
 * Create a new folder in C:\dev named "ClassExercise"
-* Create a new file in that folder named <your-animal-here>.java where <your-animal-here> is the name of your specific animal.
-* Use VSCode to File -> Open Folder to open "ClassExercise" and begin to edit your java file.
-* Copy the following block of code into the file and replace "Animal" with <your-animal-here>
+* Create a new file in that folder named `Animal.java` but replace `Animal` with the name of your specific animal.
+* At the top of VSCode, select File -> Open Folder to open "ClassExercise" and begin to edit your java file.
+* Copy the following block of code into the file but replace "Animal" with the name of your chosen animal similar to below:
 
- NEW FILE Animal.java
+ NEW FILE Axolotl.java
  ```java
-public final class Animal {
-    // list your variables here along with their appropriate types
-    public int age;
+public class Axolotl {
+    // list the variables you chose while brainstorming along with their appropriate types
+    int age;
+    // int somethingCool;
+    // double anotherExampleVariable;
+    // boolean underwater;
  
-    //Constructor
+    // constructor method (called automatically when an Axolotl is created)
     public Animal(int a) {
+       // set the Axolotl's age to the value of parameter "a"
        age = a;
     }
 
-    // list your methods here along with their appropriate return types
-    // and create a template for them without populating them with code yet
+    // write your methods here along with their appropriate return types
     public void growOlder(int years) {
         age = age + years;
     }
     
-    // For every variable you add to your class add a new line to print
+    // For every variable you add to your class, add a method to print out that value
     public void printAge() {
         System.out.println("Age = " + age);
     }
 }
 ```
-NEW FILE Main.java
+Within "ClassExercise", create a new file named `Main.java` and populate it with the following code:
+
+Be sure to change this code to interact with your animal class too!
 ```java
 public class Main {
     public static void main(String[] args) {
-        Animal myAnimal = new Animal(); //call to constructor
-        myAnimal.printAge();
-        myAnimal.growOlder(10);
-        myAnimal.printAge();
+        Axolotl ancientJerry = new Axolotl(10000); // Instantiates a new Axolotl within the variable "ancientJerry" and sets its initial age to 10000
+
+        // test out some of the methods you created for your animal:
+        ancientJerry.printAge(); // displays the age of ancientJerry
+        ancientJerry.growOlder(100); // call to one of the Axolotl class methods to increase age
+        ancientJerry.printAge(); // displays the new age of ancientJerry
+
+        // feel free to create more objects using the class:
+        Axolotl jerryJunior = new Axolotl(5);  
+        jerryJunior.growOlder(100); // jerryJunior is growing up!!
+        jerryJunior.printAge();
+
+        ancientJerry.growOlder(-10100);  
+        ancientJerry.printAge();
+        System.out.println("Ancient Jerry has finally died :[");
     }
 }
 ```
 * Make sure you can "Run" your code to confirm it can build and run before moving to next step.
 * Pick five variables (attributes) and five methods (actions) that are related to each other and add them to your class.
 * Discuss with a mentor the methods you have chosen to get ideas for how you might implement them.
-* As you implement each one, call it from your main method and call myAnimal.toString() after each to see how your animal changes with each call.
+* As you implement each one, call it from your main method and call `ancientJerry.printAge()` to see how your animal changes with each call.
