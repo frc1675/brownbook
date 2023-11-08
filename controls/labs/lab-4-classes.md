@@ -92,7 +92,7 @@ public class Axolotl {
     // boolean underwater;
  
     // constructor method (called automatically when an Axolotl is created)
-    public Animal(int a) {
+    public Axolotl(int a) {
        // set the Axolotl's age to the value of parameter "a"
        age = a;
     }
