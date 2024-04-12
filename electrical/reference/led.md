@@ -27,7 +27,7 @@ Green light = good. No green light = bad.
 
 ### Robot Signal Light (RSL)
 
-The RSL state matches the STATUS LED on the RoboRIO when operating normally.
+The RSL state matches the RSL LED on the RoboRIO when operating normally.
 
 * Solid Orange: Robot on, disabled
 * Blinking Orange: Robot on, enabled
