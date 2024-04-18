@@ -55,7 +55,7 @@ Now the About section will always have a link for you to go directly to your Git
 For any editing beyond small changes in 1 file, we recommend using the GitHub web editor feature.
 To open the web editor in GitHub press the `.` (period) key while in your repository.
 
-This will new page which runs a text editor in the cloud for you to use through your browser. 
+This will load a page which runs a text editor in the cloud for you to use through your browser. 
 It autosaves your changes as you work.
 
 #### Make changes
@@ -78,22 +78,11 @@ Click this icon near the top of the editor to see a Markdown preview pane.
 
 ![Markdown preview](./images/md-preview.PNG)
 
-#### Stage changes, commit, and push
+#### Commit and push
 Once you are happy with some changes they need to be moved into your brownbook repository.
 
-First, the changes need to be **staged**. 
-This is you signifying that you want the changes to be added to your repository. 
-Click the Source Control icon on the left side bar (4th from the top) and the file explorer will go away and show you source control operations.
-
-**JTPTODO point at thing being tooltipped**
-![Stage changes](./images/stage-changes.PNG)
-
-You can stage each of your files separately or stage them all at once using the menu.
-
-![Stage all changes](./images/stage-all-changes.PNG)
-
-After staging your changes, write a brief descriptive message in the text box above the Commit button. 
-Click the "Commit & Push" button to **commit** all staged changes and **push** them to your repository. 
+After previewing your changes, click the Source Control icon on the left side bar (4th from the top) and the file explorer will go away and show you source control operations. Write a brief descriptive message in the text box above the Commit & Push button. 
+Click the "Commit & Push" button to **commit** all staged changes and **push** them to your repository. By default, all changes made are included.
 Each commit is a set of changes that can easily be reversed or applied to another repository.
 
 ![Commit & Push](./images/commit-and-push.PNG)
@@ -117,7 +106,7 @@ Once page generation is complete you can look at your changes in GitHub Pages th
 Click around, make sure your changes look as you like and that all images and links work correctly.
 
 #### Iterate your changes
-Continue through the change, stage, commit, push, check steps until you are happy with your content. 
+Continue through the change, preview, commit, push, check steps until you are happy with your content. 
 Make sure it meets the [brownbook standards](./standards.md)!
 
 #### Make a pull request
