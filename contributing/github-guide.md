@@ -123,13 +123,11 @@ Your changes are in your fork, so you need to click this link to compare across 
 
 Choose your fork to be the head repository.
 
-**JTPTODO AFTER MERGE take new pic that shows main instead of master**
 ![Choose head repository](./images/choose-head-repo.PNG)
 
 After selecting your fork, the page should auto-populate with all the changes between your fork and the main brownbook repository. 
 At this point you can click the green button to create the pull request.
 
-**JTPTODO AFTER MERGE take new pic that shows main instead of master**
 ![Create pull request](./images/create-pr-final.PNG)
 
 It will open a form for your to fill out. 
@@ -151,3 +149,5 @@ If it says your repository is **ahead** it means you have commits that haven't b
 ![Sync](./images/update-branch.PNG)
 
 We use what are called "squash commits" to keep the main repository clean. All it means to you is that you should sync before starting each portion of new work.
+
+If your brownbook repository somehow gets to a state where dsiplays as both some number of commits **ahead and behind**, let Josh know and he can help you resolve it.
