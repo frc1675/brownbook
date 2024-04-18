@@ -36,11 +36,10 @@ Next, we will set up your repository to build and display your repository data a
 
 Go to the Settings tab of your repository and select "Pages" on the left.
 
-**JTPTODO AFTER MERGE take new pic that shows main instead of master**
 ![Pages settings](./images/pages-settings.PNG)
 
 Match your settings with those in the picture above - namely "Deploy from a branch" and selecting "main" and "/ (root)". 
-Then click the Save button.
+Then click the Save button. The site deployment confirmation in the green box will only appear after your site has been deployed.
 
 Go back to the default (Code) tab of your repository and hit the gear in the About section on the left side.
 
