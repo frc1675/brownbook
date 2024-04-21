@@ -36,11 +36,10 @@ Next, we will set up your repository to build and display your repository data a
 
 Go to the Settings tab of your repository and select "Pages" on the left.
 
-**JTPTODO AFTER MERGE take new pic that shows main instead of master**
 ![Pages settings](./images/pages-settings.PNG)
 
-Match your settings with those in the picture above - namely "Deploy from a branch" and selecting "main" and "/ (root)". 
-Then click the Save button.
+Match your settings with those in the picture above - namely "Deploy from a branch" and selecting "main" and "/ (root)", then click the Save button. 
+The site deployment confirmation in the green box will only appear after your site has been deployed.
 
 Go back to the default (Code) tab of your repository and hit the gear in the About section on the left side.
 
@@ -56,7 +55,7 @@ Now the About section will always have a link for you to go directly to your Git
 For any editing beyond small changes in 1 file, we recommend using the GitHub web editor feature.
 To open the web editor in GitHub press the `.` (period) key while in your repository.
 
-This will new page which runs a text editor in the cloud for you to use through your browser. 
+This will load a page which runs a text editor in the cloud for you to use through your browser. 
 It autosaves your changes as you work.
 
 #### Make changes
@@ -79,22 +78,13 @@ Click this icon near the top of the editor to see a Markdown preview pane.
 
 ![Markdown preview](./images/md-preview.PNG)
 
-#### Stage changes, commit, and push
+#### Commit and push
 Once you are happy with some changes they need to be moved into your brownbook repository.
 
-First, the changes need to be **staged**. 
-This is you signifying that you want the changes to be added to your repository. 
-Click the Source Control icon on the left side bar (4th from the top) and the file explorer will go away and show you source control operations.
-
-**JTPTODO point at thing being tooltipped**
-![Stage changes](./images/stage-changes.PNG)
-
-You can stage each of your files separately or stage them all at once using the menu.
-
-![Stage all changes](./images/stage-all-changes.PNG)
-
-After staging your changes, write a brief descriptive message in the text box above the Commit button. 
+After previewing your changes, click the Source Control icon on the left side bar (4th from the top) and the file explorer will go away and show you source control operations. 
+Write a brief descriptive message in the text box above the Commit & Push button. 
 Click the "Commit & Push" button to **commit** all staged changes and **push** them to your repository. 
+By default, all changes made are included.
 Each commit is a set of changes that can easily be reversed or applied to another repository.
 
 ![Commit & Push](./images/commit-and-push.PNG)
@@ -118,7 +108,7 @@ Once page generation is complete you can look at your changes in GitHub Pages th
 Click around, make sure your changes look as you like and that all images and links work correctly.
 
 #### Iterate your changes
-Continue through the change, stage, commit, push, check steps until you are happy with your content. 
+Continue through the change, preview, commit, push, check steps until you are happy with your content. 
 Make sure it meets the [brownbook standards](./standards.md)!
 
 #### Make a pull request
@@ -135,16 +125,14 @@ Your changes are in your fork, so you need to click this link to compare across 
 
 Choose your fork to be the head repository.
 
-**JTPTODO AFTER MERGE take new pic that shows main instead of master**
 ![Choose head repository](./images/choose-head-repo.PNG)
 
 After selecting your fork, the page should auto-populate with all the changes between your fork and the main brownbook repository. 
 At this point you can click the green button to create the pull request.
 
-**JTPTODO AFTER MERGE take new pic that shows main instead of master**
 ![Create pull request](./images/create-pr-final.PNG)
 
-It will open a form for your to fill out. 
+It will open a form for you to fill out. 
 Write a title and description for your pull request and click the green button to create it.
 
 ![Pull request form](./images/pr-form.PNG)
@@ -154,12 +142,18 @@ At this point some number of brownbook contributors will review your changes, wh
 
 ### Future contributions
 
-Any time you go back to your brownbook fork to make more changes to contribute, it may be "out of sync" with the main brownbook because of content added. You can see this on your fork page in this area.
+Any time you go back to your brownbook fork to make more changes to contribute, it may be "out of sync" with the main brownbook because of content added. 
+You can see this on your fork page in this area.
 
 ![Out of sync](./images/ahead.PNG)
 
-If it says your repository is **ahead** it means you have commits that haven't been merged. If your repository is **behind** it means there is content that you don't have. If you are any commits behind you can click this under "Sync Fork" button to sync automatically.
+If it says your repository is **ahead** it means you have commits that haven't been merged. 
+If your repository is **behind** it means there is content that you don't have. 
+If you are any commits behind you can click this under "Sync Fork" button to sync automatically.
 
 ![Sync](./images/update-branch.PNG)
 
-We use what are called "squash commits" to keep the main repository clean. All it means to you is that you should sync before starting each portion of new work.
+We use what are called "squash commits" to keep the main repository clean. 
+All it means to you is that you should sync before starting each portion of new work.
+
+If your brownbook repository somehow gets to a state which displays as both some number of commits **ahead and behind**, let Josh know and he can help you resolve it.
