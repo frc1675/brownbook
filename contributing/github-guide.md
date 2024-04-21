@@ -38,8 +38,8 @@ Go to the Settings tab of your repository and select "Pages" on the left.
 
 ![Pages settings](./images/pages-settings.PNG)
 
-Match your settings with those in the picture above - namely "Deploy from a branch" and selecting "main" and "/ (root)". 
-Then click the Save button. The site deployment confirmation in the green box will only appear after your site has been deployed.
+Match your settings with those in the picture above - namely "Deploy from a branch" and selecting "main" and "/ (root)", then click the Save button. 
+The site deployment confirmation in the green box will only appear after your site has been deployed.
 
 Go back to the default (Code) tab of your repository and hit the gear in the About section on the left side.
 
@@ -81,8 +81,10 @@ Click this icon near the top of the editor to see a Markdown preview pane.
 #### Commit and push
 Once you are happy with some changes they need to be moved into your brownbook repository.
 
-After previewing your changes, click the Source Control icon on the left side bar (4th from the top) and the file explorer will go away and show you source control operations. Write a brief descriptive message in the text box above the Commit & Push button. 
-Click the "Commit & Push" button to **commit** all staged changes and **push** them to your repository. By default, all changes made are included.
+After previewing your changes, click the Source Control icon on the left side bar (4th from the top) and the file explorer will go away and show you source control operations. 
+Write a brief descriptive message in the text box above the Commit & Push button. 
+Click the "Commit & Push" button to **commit** all staged changes and **push** them to your repository. 
+By default, all changes made are included.
 Each commit is a set of changes that can easily be reversed or applied to another repository.
 
 ![Commit & Push](./images/commit-and-push.PNG)
@@ -130,7 +132,7 @@ At this point you can click the green button to create the pull request.
 
 ![Create pull request](./images/create-pr-final.PNG)
 
-It will open a form for your to fill out. 
+It will open a form for you to fill out. 
 Write a title and description for your pull request and click the green button to create it.
 
 ![Pull request form](./images/pr-form.PNG)
@@ -140,14 +142,18 @@ At this point some number of brownbook contributors will review your changes, wh
 
 ### Future contributions
 
-Any time you go back to your brownbook fork to make more changes to contribute, it may be "out of sync" with the main brownbook because of content added. You can see this on your fork page in this area.
+Any time you go back to your brownbook fork to make more changes to contribute, it may be "out of sync" with the main brownbook because of content added. 
+You can see this on your fork page in this area.
 
 ![Out of sync](./images/ahead.PNG)
 
-If it says your repository is **ahead** it means you have commits that haven't been merged. If your repository is **behind** it means there is content that you don't have. If you are any commits behind you can click this under "Sync Fork" button to sync automatically.
+If it says your repository is **ahead** it means you have commits that haven't been merged. 
+If your repository is **behind** it means there is content that you don't have. 
+If you are any commits behind you can click this under "Sync Fork" button to sync automatically.
 
 ![Sync](./images/update-branch.PNG)
 
-We use what are called "squash commits" to keep the main repository clean. All it means to you is that you should sync before starting each portion of new work.
+We use what are called "squash commits" to keep the main repository clean. 
+All it means to you is that you should sync before starting each portion of new work.
 
-If your brownbook repository somehow gets to a state where dsiplays as both some number of commits **ahead and behind**, let Josh know and he can help you resolve it.
+If your brownbook repository somehow gets to a state which displays as both some number of commits **ahead and behind**, let Josh know and he can help you resolve it.
