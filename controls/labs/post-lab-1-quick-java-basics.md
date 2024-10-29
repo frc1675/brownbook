@@ -1,4 +1,18 @@
-# Creating Objects in Code
+# Quick Java Basics
+
+We aren't going to teach a full Java course but need to go over a few things about how Java works. If you want to take a full java course ask a mentor and we can point you towards resources!
+
+### Classes and Objects
+
+### Variables
+
+Variables are pieces of data that hold a value. In Java every variable has a specific type. Types are either "primitive" or a class (more on classes below).
+
+Examples of commonly use primitive variables:
+
+* `boolean` - true or false, nothing else.
+* `int` - An interger, or whole number.
+* `double` - A number with a decimal part, like `3.14159`
 
 ### Definitions
 
