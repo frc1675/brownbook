@@ -2,38 +2,26 @@
 
 Brownbook is your guide to everything controls and programming on FRC1675.
 
+### Quick Resources
+* [WPILib Home](https://docs.wpilib.org/en/stable/index.html)
+* [3rd Party Libraries (vendordeps) list](https://docs.wpilib.org/en/stable/docs/software/vscode-overview/3rd-party-libraries.html)
+
 ### The Basics
 
-* [Setting up your development environment (robot)](basics/robot-dev-setup.md)
+* [Dev Environment Setup](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/wpilib-setup.html)
+* [Game Tools (Driver Station) Setup](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/frc-game-tools.html)
 * [How to use git](basics/how-to-git.md)
 * [How to contribute to FRC1675 projects](basics/how-to-contribute.md)
 
-### Java
+### "Learn to Program Robots" Lessons
 
-* [How does a program run](java/how-java-works.md)
-* [Programming basics (output, arithmetic, logic, branching)](java/programming-basics.md)
-* [Methods](java/methods.md)
-* [Classes and Objects](java/classes-and-objects.md)
+* [Lab 1: Turn a Wheel](labs/lab-1-turn-wheel.md)
+* [Post-Lab 1: Quick Java Basics](labs/post-lab-1-quick-java-basics.md)
+* [Lab 2: Use a Controller](labs/lab-2-use-controller.md)
+* [Lab 3: Read and Use a Sensor](labs/lab-3-use-sensor.md)
+* [Lab 4: Use a PID Controller](labs/lab-4-pid-controller.md)
+* [Post-Lab 4: CommandBased Robot](labs/post-lab-4-command-based.md)
 
-### "Learn to Program Robots" Labs
-
-* [Lab 1: As the Wheel Turns](labs/lab-1-turn-wheel.md)
-
-
-### Advanced Robot Programming
-* [CommandGroups](robot-adv/commandgroups.md)
-* [Autonomous Mode](robot-adv/autonomous.md)
-* [Sensors and Feedback](robot-adv/sensors.md)
-* [Continuous Feedback Loops](robot-adv/feedback-loops.md)
-
-### Robot Systems and Best Practices
-* [Drivetrain](systems/drivetrain.md)
-* [Arms](systems/arms.md)
-* [Pneumatics](systems/pneumatics.md)
-* [Shooters](systems/shooters.md)
-* [Elevators](systems/elevators.md)
-* [Roller Claws](systems/roller-claws.md)
-* [Dashboard](systems/dashboard.md)
 
 ### Assorted Guides
 
