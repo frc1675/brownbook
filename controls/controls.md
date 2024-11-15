@@ -2,49 +2,27 @@
 
 Brownbook is your guide to everything controls and programming on FRC1675.
 
+### Quick Resources
+* [WPILib Home](https://docs.wpilib.org/en/stable/index.html)
+* [3rd Party Libraries (vendordeps) list](https://docs.wpilib.org/en/stable/docs/software/vscode-overview/3rd-party-libraries.html)
+
 ### The Basics
 
-* [Setting up your development environment (robot)](basics/robot-dev-setup.md)
+* [Dev Environment Setup](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/wpilib-setup.html)
+* [Game Tools (Driver Station) Setup](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/frc-game-tools.html)
 * [How to use git](basics/how-to-git.md)
 * [How to contribute to FRC1675 projects](basics/how-to-contribute.md)
 
-### Java
+### "Learn to Program Robots" Lessons
 
-* [How does a program run](java/how-java-works.md)
-* [Programming basics (output, arithmetic, logic, branching)](java/programming-basics.md)
-* [Methods](java/methods.md)
-* [Classes and Objects](java/classes-and-objects.md)
+* [Lab 1: Turn a Wheel](labs/lab-1-turn-wheel.md)
+* [Post-Lab 1: Quick Java Basics](labs/post-lab-1-quick-java-basics.md)
+* [Lab 2: Use a Controller](labs/lab-2-use-controller.md)
+* [Post-Lab 2: Math and Conditions](labs/post-lab-2-math-conditions.md)
+* [Lab 3: Read and Use a Sensor](labs/lab-3-use-sensor.md)
+* [Lab 4: Use a PID Controller](labs/lab-4-pid-controller.md)
+* [Post-Lab 4: CommandBased Robot](labs/post-lab-4-command-based.md)
 
-### "Learn to Program" Labs
-
-* [Lab 1: Babby's First Program](labs/lab-1-hello-world.md)
-* [Lab 2: The Math class, conditional statements, and operators](labs/lab-2-math.md)
-* [Lab 3: Organize your code! Use methods](labs/lab-3-methods.md)
-* [Lab 4: Creating Objects in Code](labs/lab-4-classes.md)
-* [Lab 5: As the Wheel Turns](labs/lab-5-turn-wheel.md)
-* [Lab 6: You Turn the Wheel](labs/lab-6-driver-input.md)
-* [Lab 7: Your Robot Driver's License Test](labs/lab-7-drive.md)
-* [Lab 8: There's Buttons Here Too](labs/lab-8-buttons.md)
-* [Lab 9: Self-Driving Robot](labs/lab-9-autonomous.md)
-* [Lab 10: Turn With a Sensor](labs/lab-10-gyro.md)
-* [Lab 11: P(I)D Loops](labs/lab-11-pid-loop.md)
-* [Lab 12: Drive With a Sensor](labs/lab-12-encoder.md)
-
-
-### Advanced Robot Programming
-* [CommandGroups](robot-adv/commandgroups.md)
-* [Autonomous Mode](robot-adv/autonomous.md)
-* [Sensors and Feedback](robot-adv/sensors.md)
-* [Continuous Feedback Loops](robot-adv/feedback-loops.md)
-
-### Robot Systems and Best Practices
-* [Drivetrain](systems/drivetrain.md)
-* [Arms](systems/arms.md)
-* [Pneumatics](systems/pneumatics.md)
-* [Shooters](systems/shooters.md)
-* [Elevators](systems/elevators.md)
-* [Roller Claws](systems/roller-claws.md)
-* [Dashboard](systems/dashboard.md)
 
 ### Assorted Guides
 
