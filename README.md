@@ -11,3 +11,5 @@ Brownbook is a repository of institutional knowledge gained by FRC 1675 that is 
 
 ### Contributing to brownbook
 * [Contributing](contributing/contributing-to-brownbook.md) - Processes and philosophy behind expanding brownbook
+
+JOSH IS COOL
