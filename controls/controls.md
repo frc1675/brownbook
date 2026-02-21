@@ -11,6 +11,7 @@ Brownbook is your guide to everything controls and programming on FRC1675.
 * [Dev Environment Setup](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/wpilib-setup.html)
 * [Game Tools (Driver Station) Setup](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/frc-game-tools.html)
 * [How to use git](basics/how-to-git.md)
+* [How to use git in VS Code](basics/how-to-git-vscode.md)
 * [How to contribute to FRC1675 projects](basics/how-to-contribute.md)
 
 ### "Learn to Program Robots" Lessons
