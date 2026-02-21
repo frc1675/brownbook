@@ -8,6 +8,8 @@ Git is a version control system which is capable of cataloging all changes you m
 
 `git` is pretty complicated and can do any number of things, but here's how you will and should primarily use it on the team:
 
+> Note: These commands are also available through VS Code if you are not comfortable using the terminal. For more information, see [How to Use Git in VS Code](./how-to-git-vscode.md)
+
 #### First time using the repository
 
 * `git clone <repository url>`
