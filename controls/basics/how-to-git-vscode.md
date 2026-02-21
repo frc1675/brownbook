@@ -43,12 +43,12 @@ The source control panel is accessible using the left-side navigation. It's the 
 
 <div style="float: right;">
   <img alt="Clone Git Repository button in VSCode new menu" src="./images/vscode-clone-new.png" style="display: block;" width="240px" />
+  <img alt="Clone Git Repository button in VSCode new menu" src="./images/vscode-vcs-clone.png" style="display: block;" width="240px" />
 </div>
 
 1. Depending on what VS Code looks like when you open it, there are two different ways to clone a new repository.
-    1. When you open VSCode for the first time, it will show a "Start" menu. Click on "Clone Git Repository..." →
-    2. If you already have a repository or project open, click on the Search bar (with the 🔎) at the top, then type ">clone" and click "Git: Clone" ↓
-    ![Clone Git Repository button in VSCode command palette](./images/vscode-clone-search.png)
+    1. When you open VSCode for the first time, it will show a "Start" menu. Click on "Clone Git Repository..."     <div style="clear: both;"></div>
+    2. If you already have a repository or project open, go to the [Source Control panel](#source-control-panel), hover over the "CHANGES", click the `...`, then click on "Clone"
       <div style="clear: both;"></div>
 2. Click on "Clone from GitHub".
   ![Clone from GitHub](./images/vscode-clone-from-github.png)
@@ -75,3 +75,11 @@ The source control panel is accessible using the left-side navigation. It's the 
    - This is the equivalent `git push origin <branch>` / [sharing your changes to GitHub](./how-to-git.md#sharing-your-changes-on-github)
 
 #### Getting new changes from `main`
+
+1. Switch to the [Source Control panel](#source-control-panel)
+2. Hover over "CHANGES", then click on `...`, and "Fetch"
+    ![Fetch in Source Control options](./images/vscode-vcs-fetch.png)
+3. Hover over "CHANGES" and click on `...` again, then go to `Branch` -> `Merge...`
+![Merge in Source Cotrol options](./images/vscode-vcs-merge.png)
+4. Click on `main` to merge in changes from the main branch
+  ![Git merge main](./images/vscode-merge-main.png)
