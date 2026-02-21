@@ -26,6 +26,17 @@ A "cycling" icon means that the branch is caught up to `origin`! Note that this 
 
 If you see down and up arrows, there are differences between your local branch and what's in GitHub. The number next to the down arrow shows the number of commits in GitHub that you do not have, and the number next to the up arrow shows the number of unpushed commits you have locally.
 
+#### Source Control Panel
+
+The source control panel is accessible using the left-side navigation. It's the icon that looks like some dots with lines connecting them (labeled 1 below).
+
+![Source Control Panel diagram](./images/ui-source-control-panel.png)
+
+1. Source Control Panel Icon - If you hover over this icon, it will say "Source Control"
+2. Message Box - Enter a message here when you are ready to commit your changes
+3. Commit Button - Press this button to commit your changes. If no unstaged changes, this will instead switch to a button to push your changes.
+4. Changes List - List of changes
+
 ### How to do git things
 
 #### First time using the repository
@@ -55,6 +66,12 @@ If you see down and up arrows, there are differences between your local branch a
 
 #### Saving your changes to the repository
 
-#### Getting new changes from `main`
+1. Save all your files
+2. Switch to the [Source Control panel](#source-control-panel)
+3. Enter a message into the box
+  ![Source control commit box](./images/vscode-vcs-commit.png)
+4. Hit "Commit"
+5. Depending on if this is a new branch or an existing branch, the "Commit" button will change to say "Publish Branch" or "Sync Changes". Either way, click this button to push your changes to GitHub
+   - This is the equivalent `git push origin <branch>` / [sharing your changes to GitHub](./how-to-git.md#sharing-your-changes-on-github)
 
-#### Sharing your changes on GitHub
+#### Getting new changes from `main`
