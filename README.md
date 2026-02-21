@@ -1,6 +1,6 @@
 ## Welcome to Brownbook
 
-Brownbook is a repository of institutional knowledge gained by FRC 1675 that is preserved for future readers.
+[Brownbook](https://frc1675.github.io/brownbook/) is a repository of institutional knowledge gained by FRC 1675 that is preserved for future readers.
 
 
 ### Categories
